@@ -5,9 +5,9 @@ set -e
 # $1 must match the path to the logs directory
 if [ -z $4 ]
 then
-    echo "Usage: bash extract_all_data.sh PATH_TO_LOGS_DIRECTORY ARTIFACT_PATH OUT CPUS TOPI" ;
+    echo "Usage: bash extract_from_logs.sh PATH_TO_LOGS_DIRECTORY ARTIFACT_PATH OUT CPUS TOPI" ;
     echo "If you don't know what to set this to, set OUT to benches/ CPUs to 8 and topI to 300" ;
-    echo "Ex: ./extract_all_data.sh dreamcoder_logs ~/proj/stitch/experiments/artifact benches/ 8 300" ;
+    echo "Ex: ./extract_from_logs.sh dreamcoder_logs ~/proj/stitch/experiments/artifact benches/ 8 300" ;
     exit 1 ;
 fi
 
