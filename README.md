@@ -1,4 +1,4 @@
-# Compression Benchmark
+# DreamCoder Compression Benchmark
 
 This set of benchmarks aims to provide snapshots of the intermediate sets of programs processed by DreamCoder's compressor, so that compression can be studied and innovated on with realistic synthetic programs, without the expensive search involved in running the full DreamCoder pipeline.
 
