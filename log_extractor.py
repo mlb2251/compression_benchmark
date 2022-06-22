@@ -128,13 +128,13 @@ def concretize_request(request,domain):
 
 
 if __name__ == "__main__":
-
-    CPUS = 8 # todo hardcoded   
     
     log_file = Path(str(sys.argv[1]))
     domain = str(sys.argv[2])
     run = str(sys.argv[3])
     out_dir = Path(str(sys.argv[4]))
+    cpus = Path(str(sys.argv[5]))
+    topI = Path(str(sys.argv[6]))
 
     with open(log_file, 'r') as f:
         log = f.read()
@@ -167,9 +167,9 @@ if __name__ == "__main__":
         "pseudoCounts": float(parameters['pseudoCounts']),
         "aic": float(parameters['aic']),
         "bs": 1000000,  # the Ocaml backend always uses these values for bs and topI I think;
-        "topI": 300,    # see lines 53-54 in compression.py
+        "topI": topI,    # see lines 53-54 in compression.py this is set to 300 in all dreamcoder experiments
         "structurePenalty": float(parameters['structurePenalty']),
-        "CPUs": CPUS,
+        "CPUs": cpus, # this can be reasonably set to 8
         "lc_score": 0.0,     # weight required by LAPS, but irrelevant for our purposes
         "DSL": None,
         "iterations": int(parameters['iterations']),
