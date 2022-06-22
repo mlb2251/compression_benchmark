@@ -133,8 +133,8 @@ if __name__ == "__main__":
     domain = str(sys.argv[2])
     run = str(sys.argv[3])
     out_dir = Path(str(sys.argv[4]))
-    cpus = Path(str(sys.argv[5]))
-    topI = Path(str(sys.argv[6]))
+    cpus = int(str(sys.argv[5]))
+    topI = int(str(sys.argv[6]))
 
     with open(log_file, 'r') as f:
         log = f.read()
