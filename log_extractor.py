@@ -135,6 +135,10 @@ if __name__ == "__main__":
     out_dir = Path(str(sys.argv[4]))
     cpus = int(str(sys.argv[5]))
     topI = int(str(sys.argv[6]))
+    iterations = int(str(sys.argv[7]))
+    cfg_str = sys.argv[8]
+
+    no_stopping_criterion = 'no_stopping_criterion' in cfg_str
 
     with open(log_file, 'r') as f:
         log = f.read()
@@ -161,6 +165,7 @@ if __name__ == "__main__":
     # template of message without grammar + frontiers filled in
     message_template = {
         # 'fast_final_rewrite': True, # flag for https://github.com/mlb2251/stitch_dreamcoder 
+        "no_stopping_criterion": no_stopping_criterion,
         "verbose": False,
         "arity": int(parameters['arity']),
         "topK": topK,
@@ -172,7 +177,8 @@ if __name__ == "__main__":
         "CPUs": cpus, # this can be reasonably set to 8
         "lc_score": 0.0,     # weight required by LAPS, but irrelevant for our purposes
         "DSL": None,
-        "iterations": int(parameters['iterations']),
+        # "iterations": int(parameters['iterations']),
+        "iterations": iterations,
         "frontiers": None,
     }
 

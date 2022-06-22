@@ -3,11 +3,11 @@
 set -e
 
 # $1 must match the path to the logs directory
-if [ -z $4 ]
+if [ -z $6 ]
 then
-    echo "Usage: bash extract_from_logs.sh PATH_TO_LOGS_DIRECTORY ARTIFACT_PATH OUT CPUS TOPI" ;
-    echo "If you don't know what to set this to, set OUT to benches/ CPUs to 8 and topI to 300" ;
-    echo "Ex: ./extract_from_logs.sh dreamcoder_logs ~/proj/stitch/experiments/artifact benches/ 8 300" ;
+    echo "Usage: bash extract_from_logs.sh PATH_TO_LOGS_DIRECTORY ARTIFACT_PATH OUT CPUS TOPI ITERATIONS [CFG_STR]" ;
+    echo "If you don't know what to set this to, set OUT to benches/ CPUs to 8 and topI to 300 and iterations to 20" ;
+    echo "Ex: ./extract_from_logs.sh dreamcoder_logs ~/proj/stitch/experiments/artifact benches/ 8 300 20" ;
     exit 1 ;
 fi
 
@@ -18,6 +18,9 @@ ARTIFACT_BIN_PATH="${ARTIFACT_PATH}/bin"  # Note: this directory must contain a 
 OUT=$3
 CPUS=$4
 TOPI=$5
+ITERATIONS=$6
+CFG_STR=$7
+
 
 
 echo "copying log_extractor.py to $ARTIFACT_BIN_PATH"
@@ -40,7 +43,7 @@ for DOMAIN in `ls $LOGS_DIR` ; do
         # echo "Logging extraction process to $OUT_DIR/$DOMAIN/$RUN/.log"
         # echo "$LOG_FILE" > "data/$DOMAIN/$RUN/.log"
         # python3 "$ARTIFACT_BIN_PATH/log_extractor.py" "$EXP_OUTS_PATH/$LOG_FILE" "data/$DOMAIN/$RUN" "8" >> "data/$DOMAIN/$RUN/.log" 2>&1
-        python3 "$ARTIFACT_BIN_PATH/log_extractor.py" "$LOGS_DIR/$DOMAIN/$RUN" "$DOMAIN" "$RUN" "$OUT_DIR" "$CPUS" "$TOPI"
+        python3 "$ARTIFACT_BIN_PATH/log_extractor.py" "$LOGS_DIR/$DOMAIN/$RUN" "$DOMAIN" "$RUN" "$OUT_DIR" "$CPUS" "$TOPI" "$ITERATIONS" "$CFG_STR"
 
     done
     echo "Finished extracting data from $DOMAIN"
