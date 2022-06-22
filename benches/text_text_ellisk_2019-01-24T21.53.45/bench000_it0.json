@@ -113,6 +113,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "Replace '(' w/ ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -148,6 +149,7 @@
             ]
         },
         {
+            "name": "Replace ' ' w/ '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -183,6 +185,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '.-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -232,6 +235,7 @@
             ]
         },
         {
+            "name": "Abbreviate separate words (IIIIII)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -281,6 +285,7 @@
             ]
         },
         {
+            "name": "Append '+138'",
             "request": {
                 "constructor": "->",
                 "arguments": [

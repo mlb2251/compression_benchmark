@@ -81,6 +81,7 @@
     "iterations": 10,
     "frontiers": [
         {
+            "name": "length int",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -123,6 +124,7 @@
             ]
         },
         {
+            "name": "map length",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -175,6 +177,7 @@
             ]
         },
         {
+            "name": "remove 0s",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -222,6 +225,7 @@
             ]
         },
         {
+            "name": "remove non-positives",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -269,6 +273,7 @@
             ]
         },
         {
+            "name": "countdown",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -311,6 +316,7 @@
             ]
         },
         {
+            "name": "weird count",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -353,6 +359,7 @@
             ]
         },
         {
+            "name": "take every other",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -400,6 +407,7 @@
             ]
         },
         {
+            "name": "drop last element",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -447,6 +455,7 @@
             ]
         },
         {
+            "name": "range",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -489,6 +498,7 @@
             ]
         },
         {
+            "name": "range inclusive",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -531,6 +541,7 @@
             ]
         },
         {
+            "name": "stutter",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -578,6 +589,7 @@
             ]
         },
         {
+            "name": "sum",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -620,6 +632,7 @@
             ]
         },
         {
+            "name": "append constant 0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -667,6 +680,7 @@
             ]
         },
         {
+            "name": "map double",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -714,6 +728,7 @@
             ]
         },
         {
+            "name": "map increment",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -761,6 +776,7 @@
             ]
         },
         {
+            "name": "map negation",
             "request": {
                 "constructor": "->",
                 "arguments": [

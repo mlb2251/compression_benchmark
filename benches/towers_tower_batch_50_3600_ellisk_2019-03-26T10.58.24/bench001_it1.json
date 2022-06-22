@@ -81,6 +81,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "arch leg 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -106,6 +107,7 @@
             ]
         },
         {
+            "name": "arch leg 4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -131,6 +133,7 @@
             ]
         },
         {
+            "name": "arch leg 5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -156,6 +159,7 @@
             ]
         },
         {
+            "name": "arch leg 7",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -181,6 +185,7 @@
             ]
         },
         {
+            "name": "h row 4, spacing 7",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -206,6 +211,7 @@
             ]
         },
         {
+            "name": "v row 5, spacing 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -231,6 +237,7 @@
             ]
         },
         {
+            "name": "bridge (2) of arch 1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -256,6 +263,7 @@
             ]
         },
         {
+            "name": "bridge (2) of arch 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -281,6 +289,7 @@
             ]
         },
         {
+            "name": "bridge (3) of arch 2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -306,6 +315,7 @@
             ]
         },
         {
+            "name": "bridge (3) of arch 4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -331,6 +341,7 @@
             ]
         },
         {
+            "name": "bridge (4) of arch 2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -356,6 +367,7 @@
             ]
         },
         {
+            "name": "bridge (4) of arch 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -381,6 +393,7 @@
             ]
         },
         {
+            "name": "bridge (4) of arch 5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -406,6 +419,7 @@
             ]
         },
         {
+            "name": "bridge (5) of arch 1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -431,6 +445,7 @@
             ]
         },
         {
+            "name": "bridge (6) of arch 1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -456,6 +471,7 @@
             ]
         },
         {
+            "name": "bridge (6) of arch 2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -481,6 +497,7 @@
             ]
         },
         {
+            "name": "bridge (6) of arch 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -506,6 +523,7 @@
             ]
         },
         {
+            "name": "bridge (7) of arch 2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -531,6 +549,7 @@
             ]
         },
         {
+            "name": "bridge (7) of arch 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -556,6 +575,7 @@
             ]
         },
         {
+            "name": "arch stack 6",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -581,6 +601,7 @@
             ]
         },
         {
+            "name": "aqueduct: 6x3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -606,6 +627,7 @@
             ]
         },
         {
+            "name": "bridge (3) of arch, spaced 7",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -631,6 +653,7 @@
             ]
         },
         {
+            "name": "bridge (4) of arch, spaced 8",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -656,6 +679,7 @@
             ]
         },
         {
+            "name": "brickwall, 3x2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -681,6 +705,7 @@
             ]
         },
         {
+            "name": "brickwall, 5x4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -702,6 +727,7 @@
             ]
         },
         {
+            "name": "L staircase 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -727,6 +753,7 @@
             ]
         },
         {
+            "name": "L staircase 4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -752,6 +779,7 @@
             ]
         },
         {
+            "name": "L staircase 7",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -777,6 +805,7 @@
             ]
         },
         {
+            "name": "R staircase 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -802,6 +831,7 @@
             ]
         },
         {
+            "name": "R staircase 5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -827,6 +857,7 @@
             ]
         },
         {
+            "name": "R staircase 7",
             "request": {
                 "constructor": "->",
                 "arguments": [

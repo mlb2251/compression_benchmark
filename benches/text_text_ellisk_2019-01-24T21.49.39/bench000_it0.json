@@ -113,6 +113,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "Replace ',' w/ '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -148,6 +149,7 @@
             ]
         },
         {
+            "name": "nth (n=0) word delimited by ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -183,6 +185,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -232,6 +235,7 @@
             ]
         },
         {
+            "name": "Drop last 2 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -267,6 +271,7 @@
             ]
         },
         {
+            "name": "Take first 4 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -302,6 +307,7 @@
             ]
         },
         {
+            "name": "Take first character and append '-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -337,6 +343,7 @@
             ]
         },
         {
+            "name": "Append 2 strings (I)",
             "request": {
                 "constructor": "->",
                 "arguments": [

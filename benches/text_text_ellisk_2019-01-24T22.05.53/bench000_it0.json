@@ -113,6 +113,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "nth (n=0) word delimited by '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -148,6 +149,7 @@
             ]
         },
         {
+            "name": "Prepend 'Hornak'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -183,6 +185,7 @@
             ]
         },
         {
+            "name": "Append 'Beata'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -218,6 +221,7 @@
             ]
         },
         {
+            "name": "Prepend 'Jani'",
             "request": {
                 "constructor": "->",
                 "arguments": [

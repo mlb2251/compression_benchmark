@@ -105,6 +105,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "bool-identify-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -140,6 +141,7 @@
             ]
         },
         {
+            "name": "count-head-in-tail",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -170,6 +172,7 @@
             ]
         },
         {
+            "name": "index-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -200,6 +203,7 @@
             ]
         },
         {
+            "name": "is-mod-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -230,6 +234,7 @@
             ]
         },
         {
+            "name": "is-primes",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -260,6 +265,7 @@
             ]
         },
         {
+            "name": "kth-largest with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -290,6 +296,7 @@
             ]
         },
         {
+            "name": "modulo-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -325,6 +332,7 @@
             ]
         },
         {
+            "name": "pop",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -360,6 +368,7 @@
             ]
         },
         {
+            "name": "replace-all-with-index-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [

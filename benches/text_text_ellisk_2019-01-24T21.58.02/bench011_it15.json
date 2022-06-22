@@ -189,6 +189,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "Replace ',' w/ '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -224,6 +225,7 @@
             ]
         },
         {
+            "name": "Replace '.' w/ ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -259,6 +261,7 @@
             ]
         },
         {
+            "name": "Replace '-' w/ ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -294,6 +297,7 @@
             ]
         },
         {
+            "name": "Replace '(' w/ '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -329,6 +333,7 @@
             ]
         },
         {
+            "name": "Replace ',' w/ '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -364,6 +369,7 @@
             ]
         },
         {
+            "name": "Replace '(' w/ ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -399,6 +405,7 @@
             ]
         },
         {
+            "name": "Replace '-' w/ ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -434,6 +441,7 @@
             ]
         },
         {
+            "name": "Replace ' ' w/ '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -469,6 +477,7 @@
             ]
         },
         {
+            "name": "Replace '(' w/ ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -504,6 +513,7 @@
             ]
         },
         {
+            "name": "drop first word delimited by '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -539,6 +549,7 @@
             ]
         },
         {
+            "name": "nth (n=0) word delimited by '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -574,6 +585,7 @@
             ]
         },
         {
+            "name": "nth (n=-1) word delimited by '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -609,6 +621,7 @@
             ]
         },
         {
+            "name": "drop first word delimited by ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -644,6 +657,7 @@
             ]
         },
         {
+            "name": "nth (n=0) word delimited by ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -679,6 +693,7 @@
             ]
         },
         {
+            "name": "nth (n=1) word delimited by ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -714,6 +729,7 @@
             ]
         },
         {
+            "name": "nth (n=-1) word delimited by ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -749,6 +765,7 @@
             ]
         },
         {
+            "name": "drop first word delimited by ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -784,6 +801,7 @@
             ]
         },
         {
+            "name": "nth (n=0) word delimited by ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -819,6 +837,7 @@
             ]
         },
         {
+            "name": "nth (n=1) word delimited by ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -854,6 +873,7 @@
             ]
         },
         {
+            "name": "nth (n=-1) word delimited by ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -889,6 +909,7 @@
             ]
         },
         {
+            "name": "drop first word delimited by '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -924,6 +945,7 @@
             ]
         },
         {
+            "name": "nth (n=1) word delimited by '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -959,6 +981,7 @@
             ]
         },
         {
+            "name": "nth (n=-1) word delimited by '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -994,6 +1017,7 @@
             ]
         },
         {
+            "name": "drop first word delimited by ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1029,6 +1053,7 @@
             ]
         },
         {
+            "name": "nth (n=1) word delimited by ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1064,6 +1089,7 @@
             ]
         },
         {
+            "name": "nth (n=-1) word delimited by ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1099,6 +1125,7 @@
             ]
         },
         {
+            "name": "drop first word delimited by '-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1134,6 +1161,7 @@
             ]
         },
         {
+            "name": "nth (n=-1) word delimited by '-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1169,6 +1197,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1218,6 +1247,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1267,6 +1297,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1316,6 +1347,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1365,6 +1397,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1414,6 +1447,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1463,6 +1497,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '  '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1508,6 +1543,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '. '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1557,6 +1593,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '(,'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1606,6 +1643,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '..'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1655,6 +1693,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '.-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1704,6 +1743,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by ' -'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1753,6 +1793,7 @@
             ]
         },
         {
+            "name": "Drop last 1 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1788,6 +1829,7 @@
             ]
         },
         {
+            "name": "Drop last 2 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1823,6 +1865,7 @@
             ]
         },
         {
+            "name": "Take first 2 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1858,6 +1901,7 @@
             ]
         },
         {
+            "name": "Drop last 3 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1893,6 +1937,7 @@
             ]
         },
         {
+            "name": "Take first 3 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1928,6 +1973,7 @@
             ]
         },
         {
+            "name": "Drop last 4 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1963,6 +2009,7 @@
             ]
         },
         {
+            "name": "Take first 4 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1998,6 +2045,7 @@
             ]
         },
         {
+            "name": "Drop last 5 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2033,6 +2081,7 @@
             ]
         },
         {
+            "name": "Take first 5 characters",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2068,6 +2117,7 @@
             ]
         },
         {
+            "name": "Extract word delimited by ',' - '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2103,6 +2153,7 @@
             ]
         },
         {
+            "name": "Extract word delimited by '(' - '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2138,6 +2189,7 @@
             ]
         },
         {
+            "name": "Extract word delimited by ',' - ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2173,6 +2225,7 @@
             ]
         },
         {
+            "name": "Extract word delimited by ')' - '-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2208,6 +2261,7 @@
             ]
         },
         {
+            "name": "Extract word delimited by '-' - ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2243,6 +2297,7 @@
             ]
         },
         {
+            "name": "Extract word delimited by ')' - ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2278,6 +2333,7 @@
             ]
         },
         {
+            "name": "Take first character and append '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2313,6 +2369,7 @@
             ]
         },
         {
+            "name": "Take first character and append ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2348,6 +2405,7 @@
             ]
         },
         {
+            "name": "Take first character and append ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2383,6 +2441,7 @@
             ]
         },
         {
+            "name": "Take first character and append '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2418,6 +2477,7 @@
             ]
         },
         {
+            "name": "Take first character and append ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2453,6 +2513,7 @@
             ]
         },
         {
+            "name": "Take first character and append '-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2488,6 +2549,7 @@
             ]
         },
         {
+            "name": "Abbreviate separate words (I)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2537,6 +2599,7 @@
             ]
         },
         {
+            "name": "Abbreviate words separated by '.'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2572,6 +2635,7 @@
             ]
         },
         {
+            "name": "Abbreviate separate words (II)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2621,6 +2685,7 @@
             ]
         },
         {
+            "name": "Abbreviate words separated by ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2656,6 +2721,7 @@
             ]
         },
         {
+            "name": "Abbreviate separate words (III)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2705,6 +2771,7 @@
             ]
         },
         {
+            "name": "Abbreviate words separated by ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2740,6 +2807,7 @@
             ]
         },
         {
+            "name": "Abbreviate separate words (IIII)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2789,6 +2857,7 @@
             ]
         },
         {
+            "name": "Abbreviate words separated by '('",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2824,6 +2893,7 @@
             ]
         },
         {
+            "name": "Abbreviate separate words (IIIII)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2873,6 +2943,7 @@
             ]
         },
         {
+            "name": "Abbreviate words separated by ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2908,6 +2979,7 @@
             ]
         },
         {
+            "name": "Abbreviate separate words (IIIIII)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2957,6 +3029,7 @@
             ]
         },
         {
+            "name": "Abbreviate words separated by '-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2992,6 +3065,7 @@
             ]
         },
         {
+            "name": "Append 2 strings (I)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3041,6 +3115,7 @@
             ]
         },
         {
+            "name": "Append 2 strings (II)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3090,6 +3165,7 @@
             ]
         },
         {
+            "name": "Append 2 strings (III)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3139,6 +3215,7 @@
             ]
         },
         {
+            "name": "Append 2 strings (IIII)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3188,6 +3265,7 @@
             ]
         },
         {
+            "name": "Append 2 strings (IIIII)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3237,6 +3315,7 @@
             ]
         },
         {
+            "name": "Append 2 strings (IIIIII)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3286,6 +3365,7 @@
             ]
         },
         {
+            "name": "Prepend 'Hornak'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3321,6 +3401,7 @@
             ]
         },
         {
+            "name": "Append 'Cornell'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3356,6 +3437,7 @@
             ]
         },
         {
+            "name": "Prepend '+174'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3391,6 +3473,7 @@
             ]
         },
         {
+            "name": "Append '636'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3426,6 +3509,7 @@
             ]
         },
         {
+            "name": "Prepend 'UCLA'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3461,6 +3545,7 @@
             ]
         },
         {
+            "name": "Append '+138'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3496,6 +3581,7 @@
             ]
         },
         {
+            "name": "Prepend 'Sergienko'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3531,6 +3617,7 @@
             ]
         },
         {
+            "name": "Append 'Beata'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3566,6 +3653,7 @@
             ]
         },
         {
+            "name": "Prepend 'Carlene' to first word",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3601,6 +3689,7 @@
             ]
         },
         {
+            "name": "Prepend 'Jani'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3636,6 +3725,7 @@
             ]
         },
         {
+            "name": "Append 'Angeles'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3671,6 +3761,7 @@
             ]
         },
         {
+            "name": "Prepend '177' to first word",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3706,6 +3797,7 @@
             ]
         },
         {
+            "name": "Prepend 'Spell'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3741,6 +3833,7 @@
             ]
         },
         {
+            "name": "Append 'Dermody'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3776,6 +3869,7 @@
             ]
         },
         {
+            "name": "Prepend '086' to first word",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3811,6 +3905,7 @@
             ]
         },
         {
+            "name": "parentheses around a single word (I)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3846,6 +3941,7 @@
             ]
         },
         {
+            "name": "parentheses around a single word (II)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3881,6 +3977,7 @@
             ]
         },
         {
+            "name": "parentheses around a single word (III)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3916,6 +4013,7 @@
             ]
         },
         {
+            "name": "parentheses around a single word (IIII)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3951,6 +4049,7 @@
             ]
         },
         {
+            "name": "parentheses around a single word (IIIII)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3986,6 +4085,7 @@
             ]
         },
         {
+            "name": "parentheses around first word",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -4021,6 +4121,7 @@
             ]
         },
         {
+            "name": "parentheses around second word",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -4056,6 +4157,7 @@
             ]
         },
         {
+            "name": "ensure suffix `Andria`",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -4091,6 +4193,7 @@
             ]
         },
         {
+            "name": "ensure suffix `997`",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -4126,6 +4229,7 @@
             ]
         },
         {
+            "name": "ensure suffix `769`",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -4161,6 +4265,7 @@
             ]
         },
         {
+            "name": "ensure suffix `Columbia`",
             "request": {
                 "constructor": "->",
                 "arguments": [

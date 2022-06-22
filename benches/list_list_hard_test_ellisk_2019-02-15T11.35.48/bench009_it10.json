@@ -189,6 +189,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "add-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -224,6 +225,7 @@
             ]
         },
         {
+            "name": "add-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -259,6 +261,7 @@
             ]
         },
         {
+            "name": "add-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -294,6 +297,7 @@
             ]
         },
         {
+            "name": "append-index-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -329,6 +333,7 @@
             ]
         },
         {
+            "name": "append-index-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -364,6 +369,7 @@
             ]
         },
         {
+            "name": "append-index-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -399,6 +405,7 @@
             ]
         },
         {
+            "name": "append-k with k=0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -434,6 +441,7 @@
             ]
         },
         {
+            "name": "append-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -469,6 +477,7 @@
             ]
         },
         {
+            "name": "append-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -504,6 +513,7 @@
             ]
         },
         {
+            "name": "append-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -539,6 +549,7 @@
             ]
         },
         {
+            "name": "bool-identify-geq-k with k=0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -574,6 +585,7 @@
             ]
         },
         {
+            "name": "bool-identify-geq-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -609,6 +621,7 @@
             ]
         },
         {
+            "name": "bool-identify-geq-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -644,6 +657,7 @@
             ]
         },
         {
+            "name": "bool-identify-is-mod-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -679,6 +693,7 @@
             ]
         },
         {
+            "name": "bool-identify-is-mod-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -714,6 +729,7 @@
             ]
         },
         {
+            "name": "bool-identify-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -749,6 +765,7 @@
             ]
         },
         {
+            "name": "bool-identify-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -784,6 +801,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=1 and n=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -819,6 +837,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=1 and n=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -854,6 +873,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=1 and n=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -889,6 +909,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=3 and n=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -924,6 +945,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=4 and n=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -959,6 +981,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=5 and n=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -994,6 +1017,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=5 and n=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1029,6 +1053,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=5 and n=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1064,6 +1089,7 @@
             ]
         },
         {
+            "name": "count-k with k=0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1094,6 +1120,7 @@
             ]
         },
         {
+            "name": "count-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1124,6 +1151,7 @@
             ]
         },
         {
+            "name": "drop-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1159,6 +1187,7 @@
             ]
         },
         {
+            "name": "drop-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1194,6 +1223,7 @@
             ]
         },
         {
+            "name": "empty",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1224,6 +1254,7 @@
             ]
         },
         {
+            "name": "evens",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1255,6 +1286,7 @@
             ]
         },
         {
+            "name": "has-head-in-tail",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1285,6 +1317,7 @@
             ]
         },
         {
+            "name": "has-k with k=0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1315,6 +1348,7 @@
             ]
         },
         {
+            "name": "has-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1345,6 +1379,7 @@
             ]
         },
         {
+            "name": "has-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1375,6 +1410,7 @@
             ]
         },
         {
+            "name": "head",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1405,6 +1441,7 @@
             ]
         },
         {
+            "name": "index-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1435,6 +1472,7 @@
             ]
         },
         {
+            "name": "index-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1465,6 +1503,7 @@
             ]
         },
         {
+            "name": "index-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1495,6 +1534,7 @@
             ]
         },
         {
+            "name": "is-mod-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1525,6 +1565,7 @@
             ]
         },
         {
+            "name": "is-mod-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1555,6 +1596,7 @@
             ]
         },
         {
+            "name": "is-primes",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1585,6 +1627,7 @@
             ]
         },
         {
+            "name": "kth-largest with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1615,6 +1658,7 @@
             ]
         },
         {
+            "name": "kth-smallest with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1641,6 +1685,7 @@
             ]
         },
         {
+            "name": "last",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1671,6 +1716,7 @@
             ]
         },
         {
+            "name": "len",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1701,6 +1747,7 @@
             ]
         },
         {
+            "name": "modulo-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1736,6 +1783,7 @@
             ]
         },
         {
+            "name": "modulo-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1771,6 +1819,7 @@
             ]
         },
         {
+            "name": "modulo-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1806,6 +1855,7 @@
             ]
         },
         {
+            "name": "modulo-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1841,6 +1891,7 @@
             ]
         },
         {
+            "name": "modulo-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1876,6 +1927,7 @@
             ]
         },
         {
+            "name": "mult-k with k=0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1911,6 +1963,7 @@
             ]
         },
         {
+            "name": "mult-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1946,6 +1999,7 @@
             ]
         },
         {
+            "name": "mult-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1981,6 +2035,7 @@
             ]
         },
         {
+            "name": "mult-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2016,6 +2071,7 @@
             ]
         },
         {
+            "name": "pop",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2051,6 +2107,7 @@
             ]
         },
         {
+            "name": "prepend-index-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2086,6 +2143,7 @@
             ]
         },
         {
+            "name": "prepend-index-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2121,6 +2179,7 @@
             ]
         },
         {
+            "name": "prepend-index-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2156,6 +2215,7 @@
             ]
         },
         {
+            "name": "prepend-k with k=0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2191,6 +2251,7 @@
             ]
         },
         {
+            "name": "product",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2221,6 +2282,7 @@
             ]
         },
         {
+            "name": "remove-index-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2256,6 +2318,7 @@
             ]
         },
         {
+            "name": "remove-index-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2291,6 +2354,7 @@
             ]
         },
         {
+            "name": "remove-mod-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2326,6 +2390,7 @@
             ]
         },
         {
+            "name": "repeat-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2361,6 +2426,7 @@
             ]
         },
         {
+            "name": "repeat-many",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2396,6 +2462,7 @@
             ]
         },
         {
+            "name": "replace-all-with-index-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2431,6 +2498,7 @@
             ]
         },
         {
+            "name": "replace-all-with-index-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2466,6 +2534,7 @@
             ]
         },
         {
+            "name": "reverse",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2501,6 +2570,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=1 and n=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2536,6 +2606,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=1 and n=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2571,6 +2642,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=2 and n=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2606,6 +2678,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=2 and n=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2641,6 +2714,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=2 and n=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2676,6 +2750,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=3 and n=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2711,6 +2786,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=3 and n=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2746,6 +2822,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=3 and n=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2781,6 +2858,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=4 and n=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2816,6 +2894,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=4 and n=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2847,6 +2926,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=4 and n=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2882,6 +2962,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=5 and n=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2917,6 +2998,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=5 and n=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2952,6 +3034,7 @@
             ]
         },
         {
+            "name": "tail",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2987,6 +3070,7 @@
             ]
         },
         {
+            "name": "take-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3022,6 +3106,7 @@
             ]
         },
         {
+            "name": "take-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3057,6 +3142,7 @@
             ]
         },
         {
+            "name": "take-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3092,6 +3178,7 @@
             ]
         },
         {
+            "name": "take-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3127,6 +3214,7 @@
             ]
         },
         {
+            "name": "+1 maximum list",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3157,6 +3245,7 @@
             ]
         },
         {
+            "name": "keep primes",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3192,6 +3281,7 @@
             ]
         },
         {
+            "name": "remove eq 0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3227,6 +3317,7 @@
             ]
         },
         {
+            "name": "remove gt 0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3262,6 +3353,7 @@
             ]
         },
         {
+            "name": "keep eq 1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -3297,6 +3389,7 @@
             ]
         },
         {
+            "name": "keep gt 1",
             "request": {
                 "constructor": "->",
                 "arguments": [

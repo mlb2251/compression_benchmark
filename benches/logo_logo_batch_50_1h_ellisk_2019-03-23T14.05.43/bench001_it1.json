@@ -169,6 +169,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "3-gon 1l slanted 8",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -194,6 +195,7 @@
             ]
         },
         {
+            "name": "4-gon (*d 1d 3)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -219,6 +221,7 @@
             ]
         },
         {
+            "name": "5-gon 1l",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -244,6 +247,7 @@
             ]
         },
         {
+            "name": "6-gon (*d 1d 2) slanted 5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -265,6 +269,7 @@
             ]
         },
         {
+            "name": "7-gon 1l",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -290,6 +295,7 @@
             ]
         },
         {
+            "name": "8-gon (/d 1d 2)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -315,6 +321,7 @@
             ]
         },
         {
+            "name": "upwards",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -340,6 +347,7 @@
             ]
         },
         {
+            "name": "right angle",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -365,6 +373,7 @@
             ]
         },
         {
+            "name": "right angle epsilon",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -390,6 +399,7 @@
             ]
         },
         {
+            "name": "line segment",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -415,6 +425,7 @@
             ]
         },
         {
+            "name": "square slanted by 2pi/3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -440,6 +451,7 @@
             ]
         },
         {
+            "name": "semicircle slanted by 2pi/5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -465,6 +477,7 @@
             ]
         },
         {
+            "name": "Greek spiral slanted by 2pi/6",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -490,6 +503,7 @@
             ]
         },
         {
+            "name": "slanted line",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -515,6 +529,7 @@
             ]
         },
         {
+            "name": "Greek spiral 7",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -540,6 +555,7 @@
             ]
         },
         {
+            "name": "Greek spiral 8",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -565,6 +581,7 @@
             ]
         },
         {
+            "name": "smooth spiral 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -590,6 +607,7 @@
             ]
         },
         {
+            "name": "smooth spiral 5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -615,6 +633,7 @@
             ]
         },
         {
+            "name": "smooth spiral 4 slanted by 2pi/2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -640,6 +659,7 @@
             ]
         },
         {
+            "name": "star 5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -665,6 +685,7 @@
             ]
         },
         {
+            "name": "star 9",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -690,6 +711,7 @@
             ]
         },
         {
+            "name": "leaf iteration 1.1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -715,6 +737,7 @@
             ]
         },
         {
+            "name": "leaf iteration 1.2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -740,6 +763,7 @@
             ]
         },
         {
+            "name": "leaf iteration 2.1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -765,6 +789,7 @@
             ]
         },
         {
+            "name": "blocks zigzag 1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -790,6 +815,7 @@
             ]
         },
         {
+            "name": "diagonal zigzag 4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -815,6 +841,7 @@
             ]
         },
         {
+            "name": "left semicircle of size 1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -840,6 +867,7 @@
             ]
         },
         {
+            "name": "circle of size 1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -865,6 +893,7 @@
             ]
         },
         {
+            "name": "right semicircle of size 2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -890,6 +919,7 @@
             ]
         },
         {
+            "name": "left semicircle of size 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -915,6 +945,7 @@
             ]
         },
         {
+            "name": "circle of size 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -940,6 +971,7 @@
             ]
         },
         {
+            "name": "right semicircle of size 4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -965,6 +997,7 @@
             ]
         },
         {
+            "name": "circle of size 4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -990,6 +1023,7 @@
             ]
         },
         {
+            "name": "left semicircle of size 5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1015,6 +1049,7 @@
             ]
         },
         {
+            "name": "circle of size 5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1040,6 +1075,7 @@
             ]
         },
         {
+            "name": "right semicircle of size 6",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1065,6 +1101,7 @@
             ]
         },
         {
+            "name": "circle of size 6",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1090,6 +1127,7 @@
             ]
         },
         {
+            "name": "5 enclosed circles",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1115,6 +1153,7 @@
             ]
         },
         {
+            "name": "6-circle flower l=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1140,6 +1179,7 @@
             ]
         },
         {
+            "name": "3-circle flower l=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1165,6 +1205,7 @@
             ]
         },
         {
+            "name": "3-semicircle sequence L=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1190,6 +1231,7 @@
             ]
         },
         {
+            "name": "1-semicircle sequence L=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1215,6 +1257,7 @@
             ]
         },
         {
+            "name": "row of 2 circles",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1240,6 +1283,7 @@
             ]
         },
         {
+            "name": "row of 2 lines",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1265,6 +1309,7 @@
             ]
         },
         {
+            "name": "line next to semicircle",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1290,6 +1335,7 @@
             ]
         },
         {
+            "name": "3 dashed lines of size (/d 1d 2)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1315,6 +1361,7 @@
             ]
         },
         {
+            "name": "broken circle",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1340,6 +1387,7 @@
             ]
         },
         {
+            "name": "circle next to semicircle",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1365,6 +1413,7 @@
             ]
         },
         {
+            "name": "circle next to line",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1390,6 +1439,7 @@
             ]
         },
         {
+            "name": "line next to circle",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1415,6 +1465,7 @@
             ]
         },
         {
+            "name": "row of 4 dashes",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1440,6 +1491,7 @@
             ]
         },
         {
+            "name": "3-double dashed snowflake",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1461,6 +1513,7 @@
             ]
         },
         {
+            "name": "3-Greek snowflake",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1486,6 +1539,7 @@
             ]
         },
         {
+            "name": "5-dashed snowflake",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1511,6 +1565,7 @@
             ]
         },
         {
+            "name": "5-close large semicircle snowflake",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1536,6 +1591,7 @@
             ]
         },
         {
+            "name": "6-lonely circle snowflake",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1561,6 +1617,7 @@
             ]
         },
         {
+            "name": "6-close semicircle snowflake",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1586,6 +1643,7 @@
             ]
         },
         {
+            "name": "7-empty snowflake",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1611,6 +1669,7 @@
             ]
         },
         {
+            "name": "4-row of squares",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1636,6 +1695,7 @@
             ]
         },
         {
+            "name": "square of size 1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1661,6 +1721,7 @@
             ]
         },
         {
+            "name": "square of size 2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1686,6 +1747,7 @@
             ]
         },
         {
+            "name": "square of size 3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1711,6 +1773,7 @@
             ]
         },
         {
+            "name": "5-concentric squares",
             "request": {
                 "constructor": "->",
                 "arguments": [

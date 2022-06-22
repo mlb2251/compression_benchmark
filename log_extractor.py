@@ -213,7 +213,8 @@ if __name__ == "__main__":
             if 't0' in str(request):
                 concretize_request(request_json,domain)
             frontiers.append(
-                {"request": request_json,
+                {"name": task_name,
+                 "request": request_json,
                  "programs": programs})
         
         new_grammar = parse_grammar(iteration[iteration.index(f'Grammar after iteration {i+1}'):], domain)

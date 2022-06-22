@@ -109,6 +109,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "bool-identify-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "name": "count-head-in-tail",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -174,6 +176,7 @@
             ]
         },
         {
+            "name": "has-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -204,6 +207,7 @@
             ]
         },
         {
+            "name": "index-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -234,6 +238,7 @@
             ]
         },
         {
+            "name": "is-mod-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -264,6 +269,7 @@
             ]
         },
         {
+            "name": "is-primes",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -294,6 +300,7 @@
             ]
         },
         {
+            "name": "kth-largest with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -324,6 +331,7 @@
             ]
         },
         {
+            "name": "modulo-k with k=5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -359,6 +367,7 @@
             ]
         },
         {
+            "name": "pop",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -394,6 +403,7 @@
             ]
         },
         {
+            "name": "prepend-index-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -429,6 +439,7 @@
             ]
         },
         {
+            "name": "prepend-index-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -464,6 +475,7 @@
             ]
         },
         {
+            "name": "replace-all-with-index-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -499,6 +511,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=2 and n=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -534,6 +547,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=5 and n=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -569,6 +583,7 @@
             ]
         },
         {
+            "name": "take-k with k=2",
             "request": {
                 "constructor": "->",
                 "arguments": [

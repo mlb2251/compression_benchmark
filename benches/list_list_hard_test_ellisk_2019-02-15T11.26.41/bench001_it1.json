@@ -109,6 +109,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "append-index-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -144,6 +145,7 @@
             ]
         },
         {
+            "name": "bool-identify-geq-k with k=0",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -179,6 +181,7 @@
             ]
         },
         {
+            "name": "bool-identify-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -214,6 +217,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=3 and n=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -245,6 +249,7 @@
             ]
         },
         {
+            "name": "caesar-cipher-k-modulo-n with k=5 and n=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -280,6 +285,7 @@
             ]
         },
         {
+            "name": "has-k with k=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -310,6 +316,7 @@
             ]
         },
         {
+            "name": "head",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -340,6 +347,7 @@
             ]
         },
         {
+            "name": "index-k with k=1",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -370,6 +378,7 @@
             ]
         },
         {
+            "name": "last",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -400,6 +409,7 @@
             ]
         },
         {
+            "name": "prepend-index-k with k=4",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -435,6 +445,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=4 and n=3",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -470,6 +481,7 @@
             ]
         },
         {
+            "name": "slice-k-n with k=5 and n=2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -505,6 +517,7 @@
             ]
         },
         {
+            "name": "tail",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -540,6 +553,7 @@
             ]
         },
         {
+            "name": "remove gt 0",
             "request": {
                 "constructor": "->",
                 "arguments": [

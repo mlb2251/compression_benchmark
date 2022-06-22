@@ -133,6 +133,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "vector addition (2)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -194,6 +195,7 @@
             ]
         },
         {
+            "name": "vector addition (many)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -246,6 +248,7 @@
             ]
         },
         {
+            "name": "vector norm",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -288,6 +291,7 @@
             ]
         },
         {
+            "name": "freefall velocity = (2gh)**.5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -325,6 +329,7 @@
             ]
         },
         {
+            "name": "v = (vx**2 + vy**2)**0.5",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -371,6 +376,7 @@
             ]
         },
         {
+            "name": "a_r = v**2/R",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -417,6 +423,7 @@
             ]
         },
         {
+            "name": "e = mc^2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -463,6 +470,7 @@
             ]
         },
         {
+            "name": "COM (general scalar)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -519,6 +527,7 @@
             ]
         },
         {
+            "name": "density = mass/volume",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -565,6 +574,7 @@
             ]
         },
         {
+            "name": "pressure = force/area",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -611,6 +621,7 @@
             ]
         },
         {
+            "name": "P = I^2R",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -657,6 +668,7 @@
             ]
         },
         {
+            "name": "P = V^2/R",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -703,6 +715,7 @@
             ]
         },
         {
+            "name": "V_{rms} = V/sqrt2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -740,6 +753,7 @@
             ]
         },
         {
+            "name": "U = 1/2CV^2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -786,6 +800,7 @@
             ]
         },
         {
+            "name": "U = 1/2QV",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -832,6 +847,7 @@
             ]
         },
         {
+            "name": "U = 1/2Q^2/C",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -878,6 +894,7 @@
             ]
         },
         {
+            "name": "P = 1/f",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -915,6 +932,7 @@
             ]
         },
         {
+            "name": "c = 1/2*r",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -952,6 +970,7 @@
             ]
         },
         {
+            "name": "Fnet = sum(F)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1004,6 +1023,7 @@
             ]
         },
         {
+            "name": "a = sum(F)/m",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1065,6 +1085,7 @@
             ]
         },
         {
+            "name": "work = F.d",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1121,6 +1142,7 @@
             ]
         },
         {
+            "name": "P = F.v",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1177,6 +1199,7 @@
             ]
         },
         {
+            "name": "F = qvxB (2d)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1250,6 +1273,7 @@
             ]
         },
         {
+            "name": "tau = rxF (2d)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1314,6 +1338,7 @@
             ]
         },
         {
+            "name": "v(t)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1369,6 +1394,7 @@
             ]
         },
         {
+            "name": "x(t)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1433,6 +1459,7 @@
             ]
         },
         {
+            "name": "p=mv",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1489,6 +1516,7 @@
             ]
         },
         {
+            "name": "dp=Fdt",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1545,6 +1573,7 @@
             ]
         },
         {
+            "name": "K=1/2mv^2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1596,6 +1625,7 @@
             ]
         },
         {
+            "name": "K=1/2Iw^2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1642,6 +1672,7 @@
             ]
         },
         {
+            "name": "E=pJ",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1698,6 +1729,7 @@
             ]
         },
         {
+            "name": "Fs=kx",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1754,6 +1786,7 @@
             ]
         },
         {
+            "name": "P=dE/dt",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1800,6 +1833,7 @@
             ]
         },
         {
+            "name": "theta(t)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1864,6 +1898,7 @@
             ]
         },
         {
+            "name": "omega(t)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1919,6 +1954,7 @@
             ]
         },
         {
+            "name": "T=2pi/w",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -1956,6 +1992,7 @@
             ]
         },
         {
+            "name": "Ts=2pi(m/k)^1/2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2002,6 +2039,7 @@
             ]
         },
         {
+            "name": "Tp=2pi(l/g)^1/2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2048,6 +2086,7 @@
             ]
         },
         {
+            "name": "Newtonian gravitation (vector)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2113,6 +2152,7 @@
             ]
         },
         {
+            "name": "Coulomb's law (vector)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2178,6 +2218,7 @@
             ]
         },
         {
+            "name": "Newtonian gravitation (scalar)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2238,6 +2279,7 @@
             ]
         },
         {
+            "name": "Coulomb's law (scalar)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2298,6 +2340,7 @@
             ]
         },
         {
+            "name": "Hook's law",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2344,6 +2387,7 @@
             ]
         },
         {
+            "name": "Ohm's law",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2390,6 +2434,7 @@
             ]
         },
         {
+            "name": "power/current/voltage relation",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2436,6 +2481,7 @@
             ]
         },
         {
+            "name": "time/frequency relation",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2473,6 +2519,7 @@
             ]
         },
         {
+            "name": "Plank relation",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2510,6 +2557,7 @@
             ]
         },
         {
+            "name": "capacitance from charge and voltage",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2556,6 +2604,7 @@
             ]
         },
         {
+            "name": "series resistors",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2598,6 +2647,7 @@
             ]
         },
         {
+            "name": "parallel capacitors",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2640,6 +2690,7 @@
             ]
         },
         {
+            "name": "series capacitors",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2682,6 +2733,7 @@
             ]
         },
         {
+            "name": "A = pir^2",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -2719,6 +2771,7 @@
             ]
         },
         {
+            "name": "c^2 = a^2 + b^2",
             "request": {
                 "constructor": "->",
                 "arguments": [

@@ -117,6 +117,7 @@
     "iterations": 20,
     "frontiers": [
         {
+            "name": "Replace '-' w/ ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -152,6 +153,7 @@
             ]
         },
         {
+            "name": "drop first word delimited by ')'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -183,6 +185,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by ' '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -232,6 +235,7 @@
             ]
         },
         {
+            "name": "Append two words delimited by '  '",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -277,6 +281,7 @@
             ]
         },
         {
+            "name": "Take first character and append ','",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -312,6 +317,7 @@
             ]
         },
         {
+            "name": "Take first character and append '-'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -347,6 +353,7 @@
             ]
         },
         {
+            "name": "Abbreviate separate words (I)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -396,6 +403,7 @@
             ]
         },
         {
+            "name": "Append 2 strings (I)",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -445,6 +453,7 @@
             ]
         },
         {
+            "name": "Append '+138'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -480,6 +489,7 @@
             ]
         },
         {
+            "name": "Prepend 'Sergienko'",
             "request": {
                 "constructor": "->",
                 "arguments": [
@@ -515,6 +525,7 @@
             ]
         },
         {
+            "name": "Prepend 'Spell'",
             "request": {
                 "constructor": "->",
                 "arguments": [
