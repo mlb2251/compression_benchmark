@@ -4,7 +4,7 @@ This set of benchmarks aims to provide snapshots of the intermediate sets of pro
 
 We have extracted the top-5 programs from each task sent to the DreamCoder compressor during each iteration of compression in which at least one new invention was added to the library. We do this for 27 DreamCoder runs spanning over 6 domains. We also record which inventions were discovered by DreamCoder.
 
-Note that we can only reconstruct the top-5 programs for each task because that is all that's present in the logs - because of this, it's important to re-time and re-run DreamCoder on these benchmarks, which we have done and have included outputs in the `out/dc/` subfolders of each benchmark family. Note that we actually cut it down from top-5 to top-K when K<5 in the original DreamCoder run. We always set the number of CPUs to 8 during these re-runs.
+Note that we can only reconstruct the top-5 programs for each task because that is all that's present in the logs - because of this, it's important to re-time and re-run DreamCoder on these benchmarks, which we have done and have included outputs in the `out/dc/` subfolders of each benchmark family. Note that we actually cut it down from top-5 to top-K when K<5 in the original DreamCoder run. We always set the number of CPUs to 8 during these re-runs. We can't reconstruct the logLikelihood field of the input so we set it to zero (which is accurate for the majority of domains).
 
 # Format
 
