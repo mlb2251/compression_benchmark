@@ -139,6 +139,7 @@ if __name__ == "__main__":
     cfg_str = sys.argv[8]
 
     no_stopping_criterion = 'no_stopping_criterion' in cfg_str
+    no_eta_long = 'no_eta_long' in cfg_str
 
     with open(log_file, 'r') as f:
         log = f.read()
@@ -166,6 +167,7 @@ if __name__ == "__main__":
     message_template = {
         # 'fast_final_rewrite': True, # flag for https://github.com/mlb2251/stitch_dreamcoder 
         "no_stopping_criterion": no_stopping_criterion,
+        "no_eta_long": no_eta_long,
         "verbose": False,
         "arity": int(parameters['arity']),
         "topK": topK,
