@@ -1,6 +1,6 @@
 # DreamCoder Compression Benchmark
 
-This set of benchmarks aims to provide snapshots of the intermediate sets of programs processed by DreamCoder's compressor, so that compression can be studied and innovated on with realistic synthetic programs, without the expensive search involved in running the full DreamCoder pipeline.
+This set of benchmarks aims to provide snapshots of the intermediate sets of programs processed by DreamCoder's compressor [1], so that compression can be studied and innovated on with realistic synthetic programs, without the expensive search involved in running the full DreamCoder pipeline.
 
 We have extracted the top-5 programs from each task sent to the DreamCoder compressor during each iteration of compression in which at least one new invention was added to the library. We do this for 27 DreamCoder runs spanning over 6 domains. We also record which inventions were discovered by DreamCoder.
 
@@ -25,3 +25,11 @@ To re-extract the benchmarks from the logs after making any modifications to ext
 - Unzip `dreamcoder_logs.zip` into `dreamcoder_logs/`
 - Download and unzip the DreamCoder PLDI artifact into `artifact/`. This should contain a folder `artifact/bin/`.
 - Run `./extract_from_logs.sh dreamcoder_logs artifact` which copy `log_extractor.py` into `artifact/bin/` (to give it access to the dreamcoder repo imports) and then run the log parsing procedure on eahc of the log files in the artifact
+
+# References
+
+[1] Kevin Ellis, Catherine Wong, Maxwell Nye, Mathias Sablé-Meyer, Lucas Morales, Luke Hewitt, Luc Cary, Armando Solar-
+Lezama, and Joshua B Tenenbaum. 2021. Dreamcoder: Bootstrapping inductive program synthesis with wake-sleep
+library learning. In *Proceedings of the 42nd ACM SIGPLAN International Conference on Programming Language Design and
+Implementation*. 835–850.
+
