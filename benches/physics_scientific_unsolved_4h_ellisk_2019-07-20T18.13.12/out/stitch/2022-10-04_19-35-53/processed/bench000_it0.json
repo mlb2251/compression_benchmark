@@ -1,0 +1,60 @@
+{
+    "bench_group": "physics_scientific_unsolved_4h_ellisk_2019-07-20T18.13.12",
+    "bench": "bench000_it0",
+    "mode": "stitch",
+    "run": "compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.13.12/out/stitch/2022-10-04_19-35-53",
+    "metrics": {
+        "time_binary_seconds": 0.2,
+        "time_per_inv_with_rewrite": 25.833333333333332,
+        "time_per_inv_no_rewrite": 25.0,
+        "mem_peak_kb": 7640,
+        "compression_ratio": 1.114000502654645,
+        "absolute_compression": 14515,
+        "compression_ratio_min": 1.3304020100502512
+    },
+    "num_inventions": 6,
+    "inventions": [
+        {
+            "name": "fn_0",
+            "dreamcoder": "#(lambda (*. $0 $0))",
+            "stitch_uncanonical": "(*. #0 #0)",
+            "stitch_canonical": "(*. #0 #0)",
+            "arity": 1
+        },
+        {
+            "name": "fn_1",
+            "dreamcoder": "#(lambda (lambda (/. $0 (/. (+. 1 1) $1))))",
+            "stitch_uncanonical": "(/. #1 (/. (+. 1 1) #0))",
+            "stitch_canonical": "(/. #0 (/. (+. 1 1) #1))",
+            "arity": 2
+        },
+        {
+            "name": "fn_2",
+            "dreamcoder": "#(lambda (lambda (lambda ($1 (fold $0 0 (lambda (lambda (+. ($4 $1) $0))))))))",
+            "stitch_uncanonical": "(lam (#1 (fold $0 0 (lam (lam (+. (#0 $1) $0))))))",
+            "stitch_canonical": "(lam (#0 (fold $0 0 (lam (lam (+. (#1 $1) $0))))))",
+            "arity": 2
+        },
+        {
+            "name": "fn_3",
+            "dreamcoder": "#(lambda (lambda (lambda ($2 $1 $0))))",
+            "stitch_uncanonical": "(lam (lam (#0 $1 $0)))",
+            "stitch_canonical": "(lam (lam (#0 $1 $0)))",
+            "arity": 1
+        },
+        {
+            "name": "fn_4",
+            "dreamcoder": "#(lambda (lambda (map (lambda (*. $2 $0)) $0)))",
+            "stitch_uncanonical": "(lam (lam (map (lam (*. $2 $0)) $0)))",
+            "stitch_canonical": "(lam (lam (map (lam (*. $2 $0)) $0)))",
+            "arity": 0
+        },
+        {
+            "name": "fn_5",
+            "dreamcoder": "#(lambda (fold $0 0 (#(lambda (lambda (lambda ($2 $1 $0)))) +.)))",
+            "stitch_uncanonical": "(fold #0 0 (fn_3 +.))",
+            "stitch_canonical": "(fold #0 0 (fn_3 +.))",
+            "arity": 1
+        }
+    ]
+}

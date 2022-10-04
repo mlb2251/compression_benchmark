@@ -1,0 +1,102 @@
+{
+    "bench_group": "logo_logo_batch_50_1h_ellisk_2019-03-23T14.13.04",
+    "bench": "bench001_it8",
+    "mode": "stitch",
+    "run": "compression_benchmark/benches/logo_logo_batch_50_1h_ellisk_2019-03-23T14.13.04/out/stitch/2022-10-04_19-35-55",
+    "metrics": {
+        "time_binary_seconds": 0.47,
+        "time_per_inv_with_rewrite": 32.583333333333336,
+        "time_per_inv_no_rewrite": 32.333333333333336,
+        "mem_peak_kb": 7660,
+        "compression_ratio": 1.3829359801124637,
+        "absolute_compression": 41745,
+        "compression_ratio_min": 1.511852658679077
+    },
+    "num_inventions": 12,
+    "inventions": [
+        {
+            "name": "fn_4",
+            "dreamcoder": "#(lambda (lambda (lambda (logo_FWRT logo_ZL (#(logo_DIVA logo_UA) $1) ($2 $0)))))",
+            "stitch_uncanonical": "(lam (logo_FWRT logo_ZL (prev_dc_inv_0 #1) (#0 $0)))",
+            "stitch_canonical": "(lam (logo_FWRT logo_ZL (prev_dc_inv_0 #0) (#1 $0)))",
+            "arity": 2
+        },
+        {
+            "name": "fn_5",
+            "dreamcoder": "#(logo_FWRT logo_UL logo_UA)",
+            "stitch_uncanonical": "(logo_FWRT logo_UL logo_UA)",
+            "stitch_canonical": "(logo_FWRT logo_UL logo_UA)",
+            "arity": 0
+        },
+        {
+            "name": "fn_6",
+            "dreamcoder": "#(lambda (lambda (lambda ($1 (logo_MULL logo_UL $2) (#(logo_DIVA logo_UA) 4) $0))))",
+            "stitch_uncanonical": "(lam (#1 (logo_MULL logo_UL #0) (prev_dc_inv_0 4) $0))",
+            "stitch_canonical": "(lam (#0 (logo_MULL logo_UL #1) (prev_dc_inv_0 4) $0))",
+            "arity": 2
+        },
+        {
+            "name": "fn_7",
+            "dreamcoder": "#(#(lambda (#(lambda (lambda (lambda (logo_forLoop $1 (lambda (lambda (logo_FWRT $4 $2 $0))))))) $0 logo_IFTY)) logo_epsL (logo_DIVA logo_epsA 2))",
+            "stitch_uncanonical": "(prev_dc_inv_2 logo_epsL (logo_DIVA logo_epsA 2))",
+            "stitch_canonical": "(prev_dc_inv_2 logo_epsL (logo_DIVA logo_epsA 2))",
+            "arity": 0
+        },
+        {
+            "name": "fn_8",
+            "dreamcoder": "#(lambda (lambda (lambda (logo_forLoop $1 $2 $0))))",
+            "stitch_uncanonical": "(lam (logo_forLoop #1 #0 $0))",
+            "stitch_canonical": "(lam (logo_forLoop #0 #1 $0))",
+            "arity": 2
+        },
+        {
+            "name": "fn_9",
+            "dreamcoder": "#(lambda (#(lambda (#(lambda (lambda (lambda (logo_forLoop $1 (lambda (lambda (logo_FWRT $4 $2 $0))))))) $0 logo_IFTY)) (logo_MULL logo_epsL $0)))",
+            "stitch_uncanonical": "(prev_dc_inv_2 (logo_MULL logo_epsL #0))",
+            "stitch_canonical": "(prev_dc_inv_2 (logo_MULL logo_epsL #0))",
+            "arity": 1
+        },
+        {
+            "name": "fn_10",
+            "dreamcoder": "#(lambda (lambda (#(lambda (lambda (lambda (logo_forLoop $1 $2 $0)))) (lambda (#(lambda (lambda (lambda (logo_FWRT logo_ZL (#(logo_DIVA logo_UA) $1) ($2 $0))))) (logo_GETSET $1) $2)) 7)))",
+            "stitch_uncanonical": "(fn_8 (lam (fn_4 (logo_GETSET #1) #0)) 7)",
+            "stitch_canonical": "(fn_8 (lam (fn_4 (logo_GETSET #0) #1)) 7)",
+            "arity": 2
+        },
+        {
+            "name": "fn_11",
+            "dreamcoder": "#(lambda (lambda (logo_PT (lambda (#(lambda (#(lambda (lambda (lambda (logo_forLoop $1 (lambda (lambda (logo_FWRT $4 $2 $0))))))) $0 logo_IFTY)) logo_epsL logo_UA $0)) ($1 $0))))",
+            "stitch_uncanonical": "(lam (logo_PT (lam (prev_dc_inv_2 logo_epsL logo_UA $0)) (#0 $0)))",
+            "stitch_canonical": "(lam (logo_PT (lam (prev_dc_inv_2 logo_epsL logo_UA $0)) (#0 $0)))",
+            "arity": 1
+        },
+        {
+            "name": "fn_12",
+            "dreamcoder": "#(#(lambda (#(lambda (lambda (lambda (logo_forLoop $1 (lambda (lambda (logo_FWRT $4 $2 $0))))))) $0 logo_IFTY)) logo_epsL logo_epsA)",
+            "stitch_uncanonical": "(prev_dc_inv_2 logo_epsL logo_epsA)",
+            "stitch_canonical": "(prev_dc_inv_2 logo_epsL logo_epsA)",
+            "arity": 0
+        },
+        {
+            "name": "fn_13",
+            "dreamcoder": "#(lambda (lambda (lambda ($1 (logo_PT (lambda (#(logo_FWRT logo_UL logo_UA) $0)) ($2 $0))))))",
+            "stitch_uncanonical": "(lam (#1 (logo_PT (lam (fn_5 $0)) (#0 $0))))",
+            "stitch_canonical": "(lam (#0 (logo_PT (lam (fn_5 $0)) (#1 $0))))",
+            "arity": 2
+        },
+        {
+            "name": "fn_14",
+            "dreamcoder": "#(lambda (lambda (#(lambda (logo_forLoop 7 (lambda (lambda (#(lambda (lambda (lambda (logo_forLoop $1 (lambda (lambda (logo_FWRT $4 $2 $0))))))) $2 7 logo_epsA $0))))) (logo_MULL logo_epsL $1) $0)))",
+            "stitch_uncanonical": "(lam (prev_dc_inv_3 (logo_MULL logo_epsL #0) $0))",
+            "stitch_canonical": "(lam (prev_dc_inv_3 (logo_MULL logo_epsL #0) $0))",
+            "arity": 1
+        },
+        {
+            "name": "fn_15",
+            "dreamcoder": "#(lambda (#(lambda (#(lambda (lambda (lambda (logo_forLoop $1 (lambda (lambda (logo_FWRT $4 $2 $0))))))) $0 logo_IFTY)) logo_UL (#(logo_DIVA logo_UA) $0)))",
+            "stitch_uncanonical": "(prev_dc_inv_2 logo_UL (prev_dc_inv_0 #0))",
+            "stitch_canonical": "(prev_dc_inv_2 logo_UL (prev_dc_inv_0 #0))",
+            "arity": 1
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "bench_group": "physics_scientific_unsolved_4h_ellisk_2019-07-20T18.05.46",
+    "bench": "bench004_it4",
+    "mode": "stitch",
+    "run": "compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.05.46/out/stitch/2022-10-04_19-36-00",
+    "metrics": {
+        "time_binary_seconds": 0.07,
+        "time_per_inv_with_rewrite": 22.0,
+        "time_per_inv_no_rewrite": 21.0,
+        "mem_peak_kb": 7736,
+        "compression_ratio": 1.0167347059083607,
+        "absolute_compression": 2271,
+        "compression_ratio_min": 1.0811685310159933
+    },
+    "num_inventions": 1,
+    "inventions": [
+        {
+            "name": "fn_13",
+            "dreamcoder": "#(lambda (lambda (lambda ($2 $1 $0))))",
+            "stitch_uncanonical": "(lam (lam (#0 $1 $0)))",
+            "stitch_canonical": "(lam (lam (#0 $1 $0)))",
+            "arity": 1
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "bench_group": "text_text_ellisk_2019-01-24T22.01.57",
+    "bench": "bench006_it8",
+    "mode": "stitch",
+    "run": "compression_benchmark/benches/text_text_ellisk_2019-01-24T22.01.57/out/stitch/2022-10-04_19-35-51",
+    "metrics": {
+        "time_binary_seconds": 0.09,
+        "time_per_inv_with_rewrite": 13.0,
+        "time_per_inv_no_rewrite": 13.0,
+        "mem_peak_kb": 5964,
+        "compression_ratio": 1.0298642413605117,
+        "absolute_compression": 2246,
+        "compression_ratio_min": 1.0780104893890452
+    },
+    "num_inventions": 3,
+    "inventions": [
+        {
+            "name": "fn_13",
+            "dreamcoder": "#(lambda (lambda (#(lambda (lambda (fold $0 $1 (lambda (lambda (cons $1 $0)))))) $0 $1)))",
+            "stitch_uncanonical": "(lam (lam (prev_dc_inv_5 $0 $1)))",
+            "stitch_canonical": "(lam (lam (prev_dc_inv_5 $0 $1)))",
+            "arity": 0
+        },
+        {
+            "name": "fn_14",
+            "dreamcoder": "#(lambda (#(lambda (#(lambda (lambda (fold $0 $1 (lambda (lambda (cons $1 $0)))))) $0 STRING)) (#(lambda (lambda (unfold $1 (lambda (char-eq? (car $0) $1)) (lambda (car $0)) (lambda (cdr $0))))) $0 SPACE)))",
+            "stitch_uncanonical": "(lam (prev_dc_inv_6 (prev_dc_inv_7 $0 SPACE)))",
+            "stitch_canonical": "(lam (prev_dc_inv_6 (prev_dc_inv_7 $0 SPACE)))",
+            "arity": 0
+        },
+        {
+            "name": "fn_15",
+            "dreamcoder": "#(lambda (lambda (lambda (lambda (#(lambda (lambda (lambda (#(lambda (lambda (fold $0 $1 (lambda (lambda (cons $1 $0)))))) (cons $0 (cons $2 $1)))))) $2 $0 $3 $1)))))",
+            "stitch_uncanonical": "(lam (lam (prev_dc_inv_10 #1 $0 #0 $1)))",
+            "stitch_canonical": "(lam (lam (prev_dc_inv_10 #0 $0 #1 $1)))",
+            "arity": 2
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "bench_group": "physics_scientific_unsolved_4h_ellisk_2019-07-20T18.09.34",
+    "bench": "bench001_it1",
+    "mode": "stitch",
+    "run": "compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.09.34/out/stitch/2022-10-04_19-36-04",
+    "metrics": {
+        "time_binary_seconds": 0.08,
+        "time_per_inv_with_rewrite": 18.5,
+        "time_per_inv_no_rewrite": 18.0,
+        "mem_peak_kb": 7088,
+        "compression_ratio": 1.0240553851437313,
+        "absolute_compression": 3082,
+        "compression_ratio_min": 1.1376146788990826
+    },
+    "num_inventions": 2,
+    "inventions": [
+        {
+            "name": "fn_10",
+            "dreamcoder": "#(lambda (lambda (lambda ($2 $1 $0))))",
+            "stitch_uncanonical": "(lam (lam (#0 $1 $0)))",
+            "stitch_canonical": "(lam (lam (#0 $1 $0)))",
+            "arity": 1
+        },
+        {
+            "name": "fn_11",
+            "dreamcoder": "#(lambda (lambda (lambda (lambda (+. (*. $0 (#(lambda (lambda (/. (*. $0 $1) (+. 1. 1.)))) $0 $1)) (+. (*. $2 $0) $3))))))",
+            "stitch_uncanonical": "(lam (lam (lam (lam (+. (*. $0 (prev_dc_inv_3 $0 $1)) (+. (*. $2 $0) $3))))))",
+            "stitch_canonical": "(lam (lam (lam (lam (+. (*. $0 (prev_dc_inv_3 $0 $1)) (+. (*. $2 $0) $3))))))",
+            "arity": 0
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "bench_group": "towers_tower_batch_50_3600_ellisk_2019-03-26T11.05.16",
+    "bench": "bench000_it0",
+    "mode": "stitch",
+    "run": "compression_benchmark/benches/towers_tower_batch_50_3600_ellisk_2019-03-26T11.05.16/out/stitch/2022-10-04_19-36-10",
+    "metrics": {
+        "time_binary_seconds": 0.07,
+        "time_per_inv_with_rewrite": 7.625,
+        "time_per_inv_no_rewrite": 7.25,
+        "mem_peak_kb": 4564,
+        "compression_ratio": 1.3455118694362018,
+        "absolute_compression": 11178,
+        "compression_ratio_min": 1.6454278494843952
+    },
+    "num_inventions": 8,
+    "inventions": [
+        {
+            "name": "fn_0",
+            "dreamcoder": "#(lambda (lambda (lambda (tower_loopM $1 (lambda (lambda (moveHand 3 (reverseHand (tower_loopM $4 (lambda (lambda (moveHand 6 (3x1 $0)))) $0))))) $0))))",
+            "stitch_uncanonical": "(lam (tower_loopM #1 (lam (lam (moveHand 3 (reverseHand (tower_loopM #0 (lam (lam (moveHand 6 (3x1 $0)))) $0))))) $0))",
+            "stitch_canonical": "(lam (tower_loopM #0 (lam (lam (moveHand 3 (reverseHand (tower_loopM #1 (lam (lam (moveHand 6 (3x1 $0)))) $0))))) $0))",
+            "arity": 2
+        },
+        {
+            "name": "fn_1",
+            "dreamcoder": "#(tower_embed (lambda (moveHand 2 (1x3 $0))))",
+            "stitch_uncanonical": "(tower_embed (lam (moveHand 2 (1x3 $0))))",
+            "stitch_canonical": "(tower_embed (lam (moveHand 2 (1x3 $0))))",
+            "arity": 0
+        },
+        {
+            "name": "fn_2",
+            "dreamcoder": "#(lambda (moveHand 4 (1x3 $0)))",
+            "stitch_uncanonical": "(moveHand 4 (1x3 #0))",
+            "stitch_canonical": "(moveHand 4 (1x3 #0))",
+            "arity": 1
+        },
+        {
+            "name": "fn_3",
+            "dreamcoder": "#(lambda (lambda (reverseHand (tower_loopM $1 (lambda (lambda (moveHand 6 (tower_embed (lambda (moveHand 3 (3x1 $0))) (3x1 $0))))) $0))))",
+            "stitch_uncanonical": "(lam (reverseHand (tower_loopM #0 (lam (lam (moveHand 6 (tower_embed (lam (moveHand 3 (3x1 $0))) (3x1 $0))))) $0)))",
+            "stitch_canonical": "(lam (reverseHand (tower_loopM #0 (lam (lam (moveHand 6 (tower_embed (lam (moveHand 3 (3x1 $0))) (3x1 $0))))) $0)))",
+            "arity": 1
+        },
+        {
+            "name": "fn_4",
+            "dreamcoder": "#(lambda (lambda (tower_loopM $1 (lambda (lambda (1x3 (#(lambda (moveHand 4 (1x3 $0))) (reverseHand $0))))) (moveHand 2 (3x1 $0)))))",
+            "stitch_uncanonical": "(lam (tower_loopM #0 (lam (lam (1x3 (fn_2 (reverseHand $0))))) (moveHand 2 (3x1 $0))))",
+            "stitch_canonical": "(lam (tower_loopM #0 (lam (lam (1x3 (fn_2 (reverseHand $0))))) (moveHand 2 (3x1 $0))))",
+            "arity": 1
+        },
+        {
+            "name": "fn_5",
+            "dreamcoder": "#(lambda (lambda (lambda (tower_loopM $1 (lambda $3) $0))))",
+            "stitch_uncanonical": "(lam (tower_loopM #1 (lam #0) $0))",
+            "stitch_canonical": "(lam (tower_loopM #0 (lam #1) $0))",
+            "arity": 2
+        },
+        {
+            "name": "fn_6",
+            "dreamcoder": "#(lambda (lambda (tower_loopM $1 (lambda (lambda (#(tower_embed (lambda (moveHand 2 (1x3 $0)))) (reverseHand $0)))) (3x1 $0))))",
+            "stitch_uncanonical": "(lam (tower_loopM #0 (lam (lam (fn_1 (reverseHand $0)))) (3x1 $0)))",
+            "stitch_canonical": "(lam (tower_loopM #0 (lam (lam (fn_1 (reverseHand $0)))) (3x1 $0)))",
+            "arity": 1
+        },
+        {
+            "name": "fn_7",
+            "dreamcoder": "#(moveHand 2)",
+            "stitch_uncanonical": "(moveHand 2)",
+            "stitch_canonical": "(moveHand 2)",
+            "arity": 0
+        }
+    ]
+}

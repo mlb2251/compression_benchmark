@@ -1,0 +1,66 @@
+[38;5;4;1m**********[0m
+[38;5;4;1m* Stitch *[0m
+[38;5;4;1m**********[0m
+Programs:
+	 num: 240
+	 max cost: 1114
+	 max depth: 13
+[38;5;4;1m
+=======Iteration 0=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 48
+num unique programs: 240
+cost_of_node structs: 0ms
+get_zippers(): 3ms
+388 zips
+arg_of_zid_node size: 388
+Tracking setup: 0ms
+arity 0: 0ms
+got 45 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 5ms
+running pattern search...
+TOTAL SEARCH: 13ms
+TOTAL PREP + SEARCH: 18ms
+Stats { worklist_steps: 1437, finished: 1, calc_final_utility: 836, upper_bound_fired: 223, free_vars_fired: 767, single_use_fired: 889, single_task_fired: 1247, useless_abstract_fired: 639, force_multiuse_fired: 11 }
+Timing point 1 (from the start of compression_step to final donelist): 18ms
+Timing Comparison Point A (search) (millis): 18
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 19
+Cost before: 20857
+0: utility: 1545 | final_cost: 19108 | 1.09x | uses: 17 | body: [fn_11 arity=1: (lam (lam (#0 $1 $0)))]
+post stuff: 7ms
+Chose Invention fn_11: utility: 1545 | final_cost: 19108 | 1.09x | uses: 17 | body: [fn_11 arity=1: (lam (lam (#0 $1 $0)))]
+[38;5;4;1m
+=======Compression Summary=======[0m
+Found 1 inventions
+Cost Improvement: (1.01x better) 126349 -> 124598
+[38;5;4mfn_11[0m (1.01x wrt orig): utility: 1545 | final_cost: 19108 | 1.09x | uses: 17 | body: [fn_11 arity=1: (lam (lam (#0 $1 $0)))]
+Time: 27ms
+Wrote to "compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.20.13/out/stitch/2022-10-04_19-35-58/raw/bench001_it1.json"
+	Command being timed: "/scratch/mlbowers/proj/stitch/target/release/compress compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.20.13/bench001_it1.json --max-arity=3 --threads=1 --iterations=1 --fmt=dreamcoder --dreamcoder-comparison --out=compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.20.13/out/stitch/2022-10-04_19-35-58/raw/bench001_it1.json"
+	User time (seconds): 0.04
+	System time (seconds): 0.02
+	Percent of CPU this job got: 98%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 6984
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1199
+	Voluntary context switches: 1
+	Involuntary context switches: 7
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 112
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

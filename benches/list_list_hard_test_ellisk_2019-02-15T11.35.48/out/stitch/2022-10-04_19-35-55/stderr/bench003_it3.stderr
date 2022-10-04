@@ -1,0 +1,66 @@
+[38;5;4;1m**********[0m
+[38;5;4;1m* Stitch *[0m
+[38;5;4;1m**********[0m
+Programs:
+	 num: 65
+	 max cost: 1315
+	 max depth: 10
+[38;5;4;1m
+=======Iteration 0=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 33
+num unique programs: 65
+cost_of_node structs: 0ms
+get_zippers(): 1ms
+273 zips
+arg_of_zid_node size: 273
+Tracking setup: 0ms
+arity 0: 0ms
+got 4 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 1ms
+running pattern search...
+TOTAL SEARCH: 5ms
+TOTAL PREP + SEARCH: 7ms
+Stats { worklist_steps: 1211, finished: 2, calc_final_utility: 542, upper_bound_fired: 90, free_vars_fired: 282, single_use_fired: 690, single_task_fired: 951, useless_abstract_fired: 243, force_multiuse_fired: 0 }
+Timing point 1 (from the start of compression_step to final donelist): 7ms
+Timing Comparison Point A (search) (millis): 7
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 7
+Cost before: 19012
+0: utility: 919 | final_cost: 17890 | 1.06x | uses: 19 | body: [fn_6 arity=1: (lam (map #0 $0))]
+post stuff: 1ms
+Chose Invention fn_6: utility: 919 | final_cost: 17890 | 1.06x | uses: 19 | body: [fn_6 arity=1: (lam (map #0 $0))]
+[38;5;4;1m
+=======Compression Summary=======[0m
+Found 1 inventions
+Cost Improvement: (1.05x better) 41871 -> 39933
+[38;5;4mfn_6[0m (1.05x wrt orig): utility: 919 | final_cost: 17890 | 1.06x | uses: 19 | body: [fn_6 arity=1: (lam (map #0 $0))]
+Time: 9ms
+Wrote to "compression_benchmark/benches/list_list_hard_test_ellisk_2019-02-15T11.35.48/out/stitch/2022-10-04_19-35-55/raw/bench003_it3.json"
+	Command being timed: "/scratch/mlbowers/proj/stitch/target/release/compress compression_benchmark/benches/list_list_hard_test_ellisk_2019-02-15T11.35.48/bench003_it3.json --max-arity=3 --threads=1 --iterations=1 --fmt=dreamcoder --dreamcoder-comparison --out=compression_benchmark/benches/list_list_hard_test_ellisk_2019-02-15T11.35.48/out/stitch/2022-10-04_19-35-55/raw/bench003_it3.json"
+	User time (seconds): 0.02
+	System time (seconds): 0.01
+	Percent of CPU this job got: 96%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4348
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 430
+	Voluntary context switches: 1
+	Involuntary context switches: 3
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 40
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

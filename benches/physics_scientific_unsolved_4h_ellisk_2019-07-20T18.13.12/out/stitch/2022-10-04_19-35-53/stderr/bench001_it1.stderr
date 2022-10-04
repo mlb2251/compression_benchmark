@@ -1,0 +1,96 @@
+[38;5;4;1m**********[0m
+[38;5;4;1m* Stitch *[0m
+[38;5;4;1m**********[0m
+Programs:
+	 num: 227
+	 max cost: 1213
+	 max depth: 12
+[38;5;4;1m
+=======Iteration 0=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 46
+num unique programs: 227
+cost_of_node structs: 0ms
+get_zippers(): 3ms
+343 zips
+arg_of_zid_node size: 343
+Tracking setup: 0ms
+arity 0: 0ms
+got 47 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 5ms
+running pattern search...
+TOTAL SEARCH: 17ms
+TOTAL PREP + SEARCH: 22ms
+Stats { worklist_steps: 2554, finished: 3, calc_final_utility: 1018, upper_bound_fired: 188, free_vars_fired: 886, single_use_fired: 1086, single_task_fired: 1807, useless_abstract_fired: 873, force_multiuse_fired: 18 }
+Timing point 1 (from the start of compression_step to final donelist): 22ms
+Timing Comparison Point A (search) (millis): 22
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 23
+Cost before: 22879
+0: utility: 1238 | final_cost: 21437 | 1.07x | uses: 15 | body: [fn_6 arity=1: (lam (lam (#0 $1 $0)))]
+post stuff: 4ms
+Chose Invention fn_6: utility: 1238 | final_cost: 21437 | 1.07x | uses: 15 | body: [fn_6 arity=1: (lam (lam (#0 $1 $0)))]
+[38;5;4;1m
+=======Iteration 1=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 46
+num unique programs: 227
+cost_of_node structs: 0ms
+get_zippers(): 2ms
+343 zips
+arg_of_zid_node size: 343
+Tracking setup: 0ms
+arity 0: 0ms
+got 35 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 4ms
+running pattern search...
+TOTAL SEARCH: 16ms
+TOTAL PREP + SEARCH: 20ms
+Stats { worklist_steps: 2643, finished: 2, calc_final_utility: 1049, upper_bound_fired: 164, free_vars_fired: 877, single_use_fired: 1136, single_task_fired: 1832, useless_abstract_fired: 911, force_multiuse_fired: 19 }
+Timing point 1 (from the start of compression_step to final donelist): 20ms
+Timing Comparison Point A (search) (millis): 20
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 20
+Cost before: 21437
+0: utility: 1110 | final_cost: 20225 | 1.06x | uses: 31 | body: [fn_7 arity=1: (*. #0 #0)]
+post stuff: 4ms
+Chose Invention fn_7: utility: 1110 | final_cost: 20225 | 1.06x | uses: 31 | body: [fn_7 arity=1: (*. #0 #0)]
+[38;5;4;1m
+=======Compression Summary=======[0m
+Found 2 inventions
+Cost Improvement: (1.04x better) 127242 -> 122566
+[38;5;4mfn_6[0m (1.01x wrt orig): utility: 1238 | final_cost: 21437 | 1.07x | uses: 15 | body: [fn_6 arity=1: (lam (lam (#0 $1 $0)))]
+[38;5;4mfn_7[0m (1.04x wrt orig): utility: 1110 | final_cost: 20225 | 1.06x | uses: 31 | body: [fn_7 arity=1: (*. #0 #0)]
+Time: 53ms
+Wrote to "compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.13.12/out/stitch/2022-10-04_19-35-53/raw/bench001_it1.json"
+	Command being timed: "/scratch/mlbowers/proj/stitch/target/release/compress compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.13.12/bench001_it1.json --max-arity=3 --threads=1 --iterations=2 --fmt=dreamcoder --dreamcoder-comparison --out=compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.13.12/out/stitch/2022-10-04_19-35-53/raw/bench001_it1.json"
+	User time (seconds): 0.06
+	System time (seconds): 0.02
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7096
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1337
+	Voluntary context switches: 1
+	Involuntary context switches: 8
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 168
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

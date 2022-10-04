@@ -1,0 +1,53 @@
+{
+    "bench_group": "physics_scientific_unsolved_4h_ellisk_2019-07-20T18.16.45",
+    "bench": "bench001_it1",
+    "mode": "stitch",
+    "run": "compression_benchmark/benches/physics_scientific_unsolved_4h_ellisk_2019-07-20T18.16.45/out/stitch/2022-10-04_19-35-53",
+    "metrics": {
+        "time_binary_seconds": 0.19,
+        "time_per_inv_with_rewrite": 22.8,
+        "time_per_inv_no_rewrite": 22.0,
+        "mem_peak_kb": 8072,
+        "compression_ratio": 1.0715655374578474,
+        "absolute_compression": 9741,
+        "compression_ratio_min": 1.2168123179359134
+    },
+    "num_inventions": 5,
+    "inventions": [
+        {
+            "name": "fn_8",
+            "dreamcoder": "#(lambda (lambda (lambda ($2 $1 $0))))",
+            "stitch_uncanonical": "(lam (lam (#0 $1 $0)))",
+            "stitch_canonical": "(lam (lam (#0 $1 $0)))",
+            "arity": 1
+        },
+        {
+            "name": "fn_9",
+            "dreamcoder": "#(lambda (power $0 (#(lambda (/. $0 (+. 1. 1.))) 1)))",
+            "stitch_uncanonical": "(power #0 (prev_dc_inv_1 1))",
+            "stitch_canonical": "(power #0 (prev_dc_inv_1 1))",
+            "arity": 1
+        },
+        {
+            "name": "fn_10",
+            "dreamcoder": "#(lambda (lambda (lambda (lambda (+. $3 (*. $0 (+. $2 (#(lambda (/. $0 (+. 1. 1.))) (*. $0 $1)))))))))",
+            "stitch_uncanonical": "(lam (lam (lam (lam (+. $3 (*. $0 (+. $2 (prev_dc_inv_1 (*. $0 $1)))))))))",
+            "stitch_canonical": "(lam (lam (lam (lam (+. $3 (*. $0 (+. $2 (prev_dc_inv_1 (*. $0 $1)))))))))",
+            "arity": 0
+        },
+        {
+            "name": "fn_11",
+            "dreamcoder": "#(lambda (lambda (lambda (#(lambda (map (lambda (*. $0 $1)))) (/. (#(lambda (lambda (lambda (/. (*. $2 $1) (#(lambda (fold $0 0. (lambda (lambda (+. $0 (*. $1 $1)))))) $0))))) $1 $2 $0) (#(lambda (power $0 (#(lambda (/. $0 (+. 1. 1.))) 1))) (#(lambda (fold $0 0. (lambda (lambda (+. $0 (*. $1 $1)))))) $0))) $0))))",
+            "stitch_uncanonical": "(lam (lam (lam (prev_dc_inv_2 (/. (prev_dc_inv_6 $1 $2 $0) (fn_9 (prev_dc_inv_5 $0))) $0))))",
+            "stitch_canonical": "(lam (lam (lam (prev_dc_inv_2 (/. (prev_dc_inv_6 $1 $2 $0) (fn_9 (prev_dc_inv_5 $0))) $0))))",
+            "arity": 0
+        },
+        {
+            "name": "fn_12",
+            "dreamcoder": "#(lambda (lambda (*. $0 (*. $0 $1))))",
+            "stitch_uncanonical": "(lam (*. $0 (*. $0 #0)))",
+            "stitch_canonical": "(lam (*. $0 (*. $0 #0)))",
+            "arity": 1
+        }
+    ]
+}

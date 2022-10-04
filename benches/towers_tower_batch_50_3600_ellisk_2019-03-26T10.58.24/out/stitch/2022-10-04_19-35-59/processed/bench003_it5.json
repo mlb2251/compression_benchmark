@@ -1,0 +1,25 @@
+{
+    "bench_group": "towers_tower_batch_50_3600_ellisk_2019-03-26T10.58.24",
+    "bench": "bench003_it5",
+    "mode": "stitch",
+    "run": "compression_benchmark/benches/towers_tower_batch_50_3600_ellisk_2019-03-26T10.58.24/out/stitch/2022-10-04_19-35-59",
+    "metrics": {
+        "time_binary_seconds": 0.04,
+        "time_per_inv_with_rewrite": 9.0,
+        "time_per_inv_no_rewrite": 9.0,
+        "mem_peak_kb": 4592,
+        "compression_ratio": 1.025661309305601,
+        "absolute_compression": 1330,
+        "compression_ratio_min": 1.0340913798102813
+    },
+    "num_inventions": 1,
+    "inventions": [
+        {
+            "name": "fn_10",
+            "dreamcoder": "#(lambda (lambda (lambda (#(lambda (lambda (tower_loopM $0 (lambda (lambda (moveHand 6 (#(lambda (lambda (tower_loopM $0 (lambda (lambda (tower_embed (lambda (moveHand 2 (1x3 $0))) (reverseHand $0)))) (3x1 $1)))) $0 $3))))))) $1 $2 $0))))",
+            "stitch_uncanonical": "(lam (prev_dc_inv_3 #1 #0 $0))",
+            "stitch_canonical": "(lam (prev_dc_inv_3 #0 #1 $0))",
+            "arity": 2
+        }
+    ]
+}

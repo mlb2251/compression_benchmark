@@ -1,0 +1,25 @@
+{
+    "bench_group": "list_list_hard_test_ellisk_2019-02-15T11.39.19",
+    "bench": "bench003_it4",
+    "mode": "stitch",
+    "run": "compression_benchmark/benches/list_list_hard_test_ellisk_2019-02-15T11.39.19/out/stitch/2022-10-04_19-36-11",
+    "metrics": {
+        "time_binary_seconds": 0.03,
+        "time_per_inv_with_rewrite": 8.0,
+        "time_per_inv_no_rewrite": 8.0,
+        "mem_peak_kb": 4580,
+        "compression_ratio": 1.014495679560688,
+        "absolute_compression": 718,
+        "compression_ratio_min": 1.0275016714954313
+    },
+    "num_inventions": 1,
+    "inventions": [
+        {
+            "name": "fn_8",
+            "dreamcoder": "#(lambda (lambda (lambda (map (lambda ($2 $0 $3)) $0))))",
+            "stitch_uncanonical": "(lam (map (lam (#1 $0 #0)) $0))",
+            "stitch_canonical": "(lam (map (lam (#0 $0 #1)) $0))",
+            "arity": 2
+        }
+    ]
+}

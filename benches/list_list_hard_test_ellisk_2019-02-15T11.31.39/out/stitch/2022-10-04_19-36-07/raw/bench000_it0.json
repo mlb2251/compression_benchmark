@@ -1,0 +1,244 @@
+{
+  "cmd": "/scratch/mlbowers/proj/stitch/target/release/compress compression_benchmark/benches/list_list_hard_test_ellisk_2019-02-15T11.31.39/bench000_it0.json --max-arity=3 --threads=1 --iterations=3 --fmt=dreamcoder --dreamcoder-comparison --out=compression_benchmark/benches/list_list_hard_test_ellisk_2019-02-15T11.31.39/out/stitch/2022-10-04_19-36-07/raw/bench000_it0.json",
+  "args": {
+    "file": "compression_benchmark/benches/list_list_hard_test_ellisk_2019-02-15T11.31.39/bench000_it0.json",
+    "out": "compression_benchmark/benches/list_list_hard_test_ellisk_2019-02-15T11.31.39/out/stitch/2022-10-04_19-36-07/raw/bench000_it0.json",
+    "iterations": 3,
+    "shuffle": false,
+    "truncate": null,
+    "fmt": "Dreamcoder",
+    "no_opt": false,
+    "args_from_json": false,
+    "save_rewritten": null,
+    "step": {
+      "max_arity": 3,
+      "threads": 1,
+      "no_stats": false,
+      "batch": 1,
+      "dynamic_batch": false,
+      "inv_candidates": 1,
+      "hole_choice": "DepthFirst",
+      "no_mismatch_check": false,
+      "no_top_lambda": false,
+      "track": null,
+      "follow_track": false,
+      "verbose_worklist": false,
+      "verbose_best": false,
+      "print_stats": 0,
+      "show_rewritten": false,
+      "no_opt_free_vars": false,
+      "no_opt_single_use": false,
+      "no_opt_single_task": false,
+      "no_opt_upper_bound": false,
+      "no_opt_force_multiuse": false,
+      "no_opt_useless_abstract": false,
+      "no_opt_arity_zero": false,
+      "no_other_util": false,
+      "rewrite_check": false,
+      "utility_by_rewrite": false,
+      "dreamcoder_comparison": true
+    }
+  },
+  "original_cost": 15374,
+  "original": [
+    "(lam (map (lam (+ $0 1)) $0))",
+    "(lam (map (lam (+ 1 $0)) $0))",
+    "(lam (map (lam (+ $0 (+ 1 (+ 1 1)))) $0))",
+    "(lam (map (lam (+ 1 (+ $0 (+ 1 1)))) $0))",
+    "(lam (map (lam (+ $0 (* (+ 1 1) (+ 1 1)))) $0))",
+    "(lam (map (lam (+ $0 (+ 1 (+ 1 (+ 1 1))))) $0))",
+    "(lam (fold $0 (range 1) (lam (lam (cons $1 $0)))))",
+    "(lam (fold $0 (cons 0 empty) (lam (lam (cons $1 $0)))))",
+    "(lam (map (lam (gt? $0 (+ 1 (+ 1 1)))) $0))",
+    "(lam (map (lam (gt? (- $0 (+ 1 1)) 1)) $0))",
+    "(lam (map (lam (eq? (mod $0 (+ 1 (+ 1 (+ 1 1)))) 0)) $0))",
+    "(lam (map (lam (+ $0 $0)) $0))",
+    "(lam (map (lam (+ $0 $0)) (map (lam $0) $0)))",
+    "(lam (fold $0 empty (lam (lam (cons (index (length $0) $2) $0)))))",
+    "(lam (fold $0 (cdr (range 1)) (lam (lam (cons (index (length $0) $2) $0)))))",
+    "(lam (map (lam (index $0 $1)) (range (* (+ 1 1) (+ 1 1)))))",
+    "(lam (map (lam (index $0 $1)) (range (+ 1 (+ 1 (+ 1 1))))))"
+  ],
+  "invs": [
+    {
+      "body": "(+ 1 (+ 1 1))",
+      "dreamcoder": "#(+ 1 (+ 1 1))",
+      "arity": 0,
+      "name": "fn_0",
+      "rewritten": [
+        "(lam (map (lam (+ $0 1)) $0))",
+        "(lam (map (lam (+ 1 $0)) $0))",
+        "(lam (map (lam (+ $0 fn_0)) $0))",
+        "(lam (map (lam (+ 1 (+ $0 (+ 1 1)))) $0))",
+        "(lam (map (lam (+ $0 (* (+ 1 1) (+ 1 1)))) $0))",
+        "(lam (map (lam (+ $0 (+ 1 fn_0))) $0))",
+        "(lam (fold $0 (range 1) (lam (lam (cons $1 $0)))))",
+        "(lam (fold $0 (cons 0 empty) (lam (lam (cons $1 $0)))))",
+        "(lam (map (lam (gt? $0 fn_0)) $0))",
+        "(lam (map (lam (gt? (- $0 (+ 1 1)) 1)) $0))",
+        "(lam (map (lam (eq? (mod $0 (+ 1 fn_0)) 0)) $0))",
+        "(lam (map (lam (+ $0 $0)) $0))",
+        "(lam (map (lam (+ $0 $0)) (map (lam $0) $0)))",
+        "(lam (fold $0 empty (lam (lam (cons (index (length $0) $2) $0)))))",
+        "(lam (fold $0 (cdr (range 1)) (lam (lam (cons (index (length $0) $2) $0)))))",
+        "(lam (map (lam (index $0 $1)) (range (* (+ 1 1) (+ 1 1)))))",
+        "(lam (map (lam (index $0 $1)) (range (+ 1 fn_0))))"
+      ],
+      "rewritten_dreamcoder": [
+        "(lambda (map (lambda (+ $0 1)) $0))",
+        "(lambda (map (lambda (+ 1 $0)) $0))",
+        "(lambda (map (lambda (+ $0 #(+ 1 (+ 1 1)))) $0))",
+        "(lambda (map (lambda (+ 1 (+ $0 (+ 1 1)))) $0))",
+        "(lambda (map (lambda (+ $0 (* (+ 1 1) (+ 1 1)))) $0))",
+        "(lambda (map (lambda (+ $0 (+ 1 #(+ 1 (+ 1 1))))) $0))",
+        "(lambda (fold $0 (range 1) (lambda (lambda (cons $1 $0)))))",
+        "(lambda (fold $0 (cons 0 empty) (lambda (lambda (cons $1 $0)))))",
+        "(lambda (map (lambda (gt? $0 #(+ 1 (+ 1 1)))) $0))",
+        "(lambda (map (lambda (gt? (- $0 (+ 1 1)) 1)) $0))",
+        "(lambda (map (lambda (eq? (mod $0 (+ 1 #(+ 1 (+ 1 1)))) 0)) $0))",
+        "(lambda (map (lambda (+ $0 $0)) $0))",
+        "(lambda (map (lambda (+ $0 $0)) (map (lambda $0) $0)))",
+        "(lambda (fold $0 empty (lambda (lambda (cons (index (length $0) $2) $0)))))",
+        "(lambda (fold $0 (cdr (range 1)) (lambda (lambda (cons (index (length $0) $2) $0)))))",
+        "(lambda (map (lambda (index $0 $1)) (range (* (+ 1 1) (+ 1 1)))))",
+        "(lambda (map (lambda (index $0 $1)) (range (+ 1 #(+ 1 (+ 1 1))))))"
+      ],
+      "utility": 1516,
+      "expected_cost": 6071,
+      "final_cost": 6071,
+      "multiplier": 1.3327293691319386,
+      "multiplier_wrt_orig": 1.3327293691319386,
+      "num_uses": 5,
+      "uses": [
+        {
+          "fn_0 ": "(+ 1 (+ 1 1))"
+        }
+      ]
+    },
+    {
+      "body": "(lam (map (lam (#1 $0 #0)) $0))",
+      "dreamcoder": "#(lambda (lambda (lambda (map (lambda ($2 $0 $3)) $0))))",
+      "arity": 2,
+      "name": "fn_1",
+      "rewritten": [
+        "(fn_1 1 +)",
+        "(lam (map (lam (+ 1 $0)) $0))",
+        "(fn_1 fn_0 +)",
+        "(lam (map (lam (+ 1 (+ $0 (+ 1 1)))) $0))",
+        "(fn_1 (* (+ 1 1) (+ 1 1)) +)",
+        "(fn_1 (+ 1 fn_0) +)",
+        "(lam (fold $0 (range 1) (lam (lam (cons $1 $0)))))",
+        "(lam (fold $0 (cons 0 empty) (lam (lam (cons $1 $0)))))",
+        "(fn_1 fn_0 gt?)",
+        "(lam (map (lam (gt? (- $0 (+ 1 1)) 1)) $0))",
+        "(lam (map (lam (eq? (mod $0 (+ 1 fn_0)) 0)) $0))",
+        "(lam (map (lam (+ $0 $0)) $0))",
+        "(lam (map (lam (+ $0 $0)) (map (lam $0) $0)))",
+        "(lam (fold $0 empty (lam (lam (cons (index (length $0) $2) $0)))))",
+        "(lam (fold $0 (cdr (range 1)) (lam (lam (cons (index (length $0) $2) $0)))))",
+        "(lam (map (lam (index $0 $1)) (range (* (+ 1 1) (+ 1 1)))))",
+        "(lam (map (lam (index $0 $1)) (range (+ 1 fn_0))))"
+      ],
+      "rewritten_dreamcoder": [
+        "(#(lambda (lambda (lambda (map (lambda ($2 $0 $3)) $0)))) 1 +)",
+        "(lambda (map (lambda (+ 1 $0)) $0))",
+        "(#(lambda (lambda (lambda (map (lambda ($2 $0 $3)) $0)))) fn_0 +)",
+        "(lambda (map (lambda (+ 1 (+ $0 (+ 1 1)))) $0))",
+        "(#(lambda (lambda (lambda (map (lambda ($2 $0 $3)) $0)))) (* (+ 1 1) (+ 1 1)) +)",
+        "(#(lambda (lambda (lambda (map (lambda ($2 $0 $3)) $0)))) (+ 1 fn_0) +)",
+        "(lambda (fold $0 (range 1) (lambda (lambda (cons $1 $0)))))",
+        "(lambda (fold $0 (cons 0 empty) (lambda (lambda (cons $1 $0)))))",
+        "(#(lambda (lambda (lambda (map (lambda ($2 $0 $3)) $0)))) fn_0 gt?)",
+        "(lambda (map (lambda (gt? (- $0 (+ 1 1)) 1)) $0))",
+        "(lambda (map (lambda (eq? (mod $0 (+ 1 fn_0)) 0)) $0))",
+        "(lambda (map (lambda (+ $0 $0)) $0))",
+        "(lambda (map (lambda (+ $0 $0)) (map (lambda $0) $0)))",
+        "(lambda (fold $0 empty (lambda (lambda (cons (index (length $0) $2) $0)))))",
+        "(lambda (fold $0 (cdr (range 1)) (lambda (lambda (cons (index (length $0) $2) $0)))))",
+        "(lambda (map (lambda (index $0 $1)) (range (* (+ 1 1) (+ 1 1)))))",
+        "(lambda (map (lambda (index $0 $1)) (range (+ 1 fn_0))))"
+      ],
+      "utility": 510,
+      "expected_cost": 5255,
+      "final_cost": 5255,
+      "multiplier": 1.1552806850618458,
+      "multiplier_wrt_orig": 1.5396764985727878,
+      "num_uses": 6,
+      "uses": [
+        {
+          "fn_1 #0 +": "(lam (map (lam (+ $0 $0)) $0))"
+        },
+        {
+          "fn_1 (* (+ 1 1) (+ 1 1)) +": "(lam (map (lam (+ $0 (* (+ 1 1) (+ 1 1)))) $0))"
+        },
+        {
+          "fn_1 (+ 1 fn_0) +": "(lam (map (lam (+ $0 (+ 1 fn_0))) $0))"
+        },
+        {
+          "fn_1 1 +": "(lam (map (lam (+ $0 1)) $0))"
+        },
+        {
+          "fn_1 fn_0 +": "(lam (map (lam (+ $0 fn_0)) $0))"
+        },
+        {
+          "fn_1 fn_0 gt?": "(lam (map (lam (gt? $0 fn_0)) $0))"
+        }
+      ]
+    },
+    {
+      "body": "(+ 1 fn_0)",
+      "dreamcoder": "#(+ 1 #(+ 1 (+ 1 1)))",
+      "arity": 0,
+      "name": "fn_2",
+      "rewritten": [
+        "(fn_1 1 +)",
+        "(lam (map (lam (+ 1 $0)) $0))",
+        "(fn_1 fn_0 +)",
+        "(lam (map (lam (+ 1 (+ $0 (+ 1 1)))) $0))",
+        "(fn_1 (* (+ 1 1) (+ 1 1)) +)",
+        "(fn_1 fn_2 +)",
+        "(lam (fold $0 (range 1) (lam (lam (cons $1 $0)))))",
+        "(lam (fold $0 (cons 0 empty) (lam (lam (cons $1 $0)))))",
+        "(fn_1 fn_0 gt?)",
+        "(lam (map (lam (gt? (- $0 (+ 1 1)) 1)) $0))",
+        "(lam (map (lam (eq? (mod $0 fn_2) 0)) $0))",
+        "(lam (map (lam (+ $0 $0)) $0))",
+        "(lam (map (lam (+ $0 $0)) (map (lam $0) $0)))",
+        "(lam (fold $0 empty (lam (lam (cons (index (length $0) $2) $0)))))",
+        "(lam (fold $0 (cdr (range 1)) (lam (lam (cons (index (length $0) $2) $0)))))",
+        "(lam (map (lam (index $0 $1)) (range (* (+ 1 1) (+ 1 1)))))",
+        "(lam (map (lam (index $0 $1)) (range fn_2)))"
+      ],
+      "rewritten_dreamcoder": [
+        "(fn_1 1 +)",
+        "(lambda (map (lambda (+ 1 $0)) $0))",
+        "(fn_1 fn_0 +)",
+        "(lambda (map (lambda (+ 1 (+ $0 (+ 1 1)))) $0))",
+        "(fn_1 (* (+ 1 1) (+ 1 1)) +)",
+        "(fn_1 #(+ 1 #(+ 1 (+ 1 1))) +)",
+        "(lambda (fold $0 (range 1) (lambda (lambda (cons $1 $0)))))",
+        "(lambda (fold $0 (cons 0 empty) (lambda (lambda (cons $1 $0)))))",
+        "(fn_1 fn_0 gt?)",
+        "(lambda (map (lambda (gt? (- $0 (+ 1 1)) 1)) $0))",
+        "(lambda (map (lambda (eq? (mod $0 #(+ 1 #(+ 1 (+ 1 1)))) 0)) $0))",
+        "(lambda (map (lambda (+ $0 $0)) $0))",
+        "(lambda (map (lambda (+ $0 $0)) (map (lambda $0) $0)))",
+        "(lambda (fold $0 empty (lambda (lambda (cons (index (length $0) $2) $0)))))",
+        "(lambda (fold $0 (cdr (range 1)) (lambda (lambda (cons (index (length $0) $2) $0)))))",
+        "(lambda (map (lambda (index $0 $1)) (range (* (+ 1 1) (+ 1 1)))))",
+        "(lambda (map (lambda (index $0 $1)) (range #(+ 1 #(+ 1 (+ 1 1))))))"
+      ],
+      "utility": 304,
+      "expected_cost": 4649,
+      "final_cost": 4649,
+      "multiplier": 1.1303506130350613,
+      "multiplier_wrt_orig": 1.7403742740374275,
+      "num_uses": 3,
+      "uses": [
+        {
+          "fn_2 ": "(+ 1 fn_0)"
+        }
+      ]
+    }
+  ]
+}

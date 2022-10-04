@@ -1,0 +1,216 @@
+[38;5;4;1m**********[0m
+[38;5;4;1m* Stitch *[0m
+[38;5;4;1m**********[0m
+Programs:
+	 num: 61
+	 max cost: 1618
+	 max depth: 15
+[38;5;4;1m
+=======Iteration 0=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 31
+num unique programs: 61
+cost_of_node structs: 0ms
+get_zippers(): 1ms
+505 zips
+arg_of_zid_node size: 505
+Tracking setup: 0ms
+arity 0: 0ms
+got 31 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 2ms
+running pattern search...
+TOTAL SEARCH: 5ms
+TOTAL PREP + SEARCH: 7ms
+Stats { worklist_steps: 900, finished: 5, calc_final_utility: 392, upper_bound_fired: 380, free_vars_fired: 223, single_use_fired: 364, single_task_fired: 369, useless_abstract_fired: 496, force_multiuse_fired: 0 }
+Timing point 1 (from the start of compression_step to final donelist): 7ms
+Timing Comparison Point A (search) (millis): 7
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 7
+Cost before: 27734
+0: utility: 4470 | final_cost: 22654 | 1.22x | uses: 10 | body: [fn_1 arity=2: (lam (tower_loopM #1 (lam (lam (prev_dc_inv_0 (moveHand 6 $0) #0))) $0))]
+post stuff: 0ms
+Chose Invention fn_1: utility: 4470 | final_cost: 22654 | 1.22x | uses: 10 | body: [fn_1 arity=2: (lam (tower_loopM #1 (lam (lam (prev_dc_inv_0 (moveHand 6 $0) #0))) $0))]
+[38;5;4;1m
+=======Iteration 1=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 31
+num unique programs: 61
+cost_of_node structs: 0ms
+get_zippers(): 1ms
+505 zips
+arg_of_zid_node size: 505
+Tracking setup: 0ms
+arity 0: 0ms
+got 22 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 1ms
+running pattern search...
+TOTAL SEARCH: 6ms
+TOTAL PREP + SEARCH: 8ms
+Stats { worklist_steps: 1635, finished: 1, calc_final_utility: 617, upper_bound_fired: 258, free_vars_fired: 224, single_use_fired: 617, single_task_fired: 524, useless_abstract_fired: 748, force_multiuse_fired: 4 }
+Timing point 1 (from the start of compression_step to final donelist): 8ms
+Timing Comparison Point A (search) (millis): 8
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 8
+Cost before: 22654
+0: utility: 2335 | final_cost: 19406 | 1.17x | uses: 4 | body: [fn_2 arity=1: (tower_loopM #0 (lam (lam (moveHand 6 (tower_loopM $1 (lam (lam (prev_dc_inv_0 $0 2))) $0)))))]
+post stuff: 0ms
+Chose Invention fn_2: utility: 2335 | final_cost: 19406 | 1.17x | uses: 4 | body: [fn_2 arity=1: (tower_loopM #0 (lam (lam (moveHand 6 (tower_loopM $1 (lam (lam (prev_dc_inv_0 $0 2))) $0)))))]
+[38;5;4;1m
+=======Iteration 2=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 31
+num unique programs: 61
+cost_of_node structs: 0ms
+get_zippers(): 1ms
+489 zips
+arg_of_zid_node size: 489
+Tracking setup: 0ms
+arity 0: 0ms
+got 16 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 1ms
+running pattern search...
+TOTAL SEARCH: 8ms
+TOTAL PREP + SEARCH: 10ms
+Stats { worklist_steps: 2207, finished: 4, calc_final_utility: 938, upper_bound_fired: 94, free_vars_fired: 217, single_use_fired: 800, single_task_fired: 553, useless_abstract_fired: 1012, force_multiuse_fired: 5 }
+Timing point 1 (from the start of compression_step to final donelist): 10ms
+Timing Comparison Point A (search) (millis): 10
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 10
+Cost before: 19406
+0: utility: 1210 | final_cost: 17790 | 1.09x | uses: 6 | body: [fn_3 arity=2: (prev_dc_inv_0 (moveHand 6 (prev_dc_inv_0 #1 #0)) #0)]
+post stuff: 0ms
+Chose Invention fn_3: utility: 1210 | final_cost: 17790 | 1.09x | uses: 6 | body: [fn_3 arity=2: (prev_dc_inv_0 (moveHand 6 (prev_dc_inv_0 #1 #0)) #0)]
+[38;5;4;1m
+=======Iteration 3=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 31
+num unique programs: 61
+cost_of_node structs: 0ms
+get_zippers(): 0ms
+465 zips
+arg_of_zid_node size: 465
+Tracking setup: 0ms
+arity 0: 0ms
+got 17 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 1ms
+running pattern search...
+TOTAL SEARCH: 8ms
+TOTAL PREP + SEARCH: 9ms
+Stats { worklist_steps: 2055, finished: 4, calc_final_utility: 934, upper_bound_fired: 80, free_vars_fired: 193, single_use_fired: 823, single_task_fired: 516, useless_abstract_fired: 924, force_multiuse_fired: 0 }
+Timing point 1 (from the start of compression_step to final donelist): 9ms
+Timing Comparison Point A (search) (millis): 9
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 10
+Cost before: 17790
+0: utility: 913 | final_cost: 15760 | 1.13x | uses: 2 | body: [fn_4 arity=2: (lam (tower_loopM #1 (lam (lam (moveHand 3 (reverseHand (tower_loopM #0 (lam (lam (moveHand 6 (3x1 $0)))) $0))))) $0))]
+post stuff: 0ms
+Chose Invention fn_4: utility: 913 | final_cost: 15760 | 1.13x | uses: 2 | body: [fn_4 arity=2: (lam (tower_loopM #1 (lam (lam (moveHand 3 (reverseHand (tower_loopM #0 (lam (lam (moveHand 6 (3x1 $0)))) $0))))) $0))]
+[38;5;4;1m
+=======Iteration 4=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 31
+num unique programs: 61
+cost_of_node structs: 0ms
+get_zippers(): 0ms
+405 zips
+arg_of_zid_node size: 405
+Tracking setup: 0ms
+arity 0: 0ms
+got 11 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 1ms
+running pattern search...
+TOTAL SEARCH: 7ms
+TOTAL PREP + SEARCH: 9ms
+Stats { worklist_steps: 1795, finished: 2, calc_final_utility: 910, upper_bound_fired: 30, free_vars_fired: 186, single_use_fired: 766, single_task_fired: 508, useless_abstract_fired: 721, force_multiuse_fired: 0 }
+Timing point 1 (from the start of compression_step to final donelist): 9ms
+Timing Comparison Point A (search) (millis): 9
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 9
+Cost before: 15760
+0: utility: 516 | final_cost: 15039 | 1.05x | uses: 28 | body: [fn_5 arity=2: (lam (tower_loopM #1 (lam #0) $0))]
+post stuff: 0ms
+Chose Invention fn_5: utility: 516 | final_cost: 15039 | 1.05x | uses: 28 | body: [fn_5 arity=2: (lam (tower_loopM #1 (lam #0) $0))]
+[38;5;4;1m
+=======Iteration 5=======[0m
+set up egraph: 0ms
+got roots, treenodes, and cloned egraph contents: 0ms
+num_paths_to_node(): 0ms
+associate_tasks() and other task stuff: 0ms
+num unique tasks: 31
+num unique programs: 61
+cost_of_node structs: 0ms
+get_zippers(): 0ms
+333 zips
+arg_of_zid_node size: 333
+Tracking setup: 0ms
+arity 0: 0ms
+got 9 arity zero inventions
+built SharedData: 0ms
+TOTAL PREP: 1ms
+running pattern search...
+TOTAL SEARCH: 4ms
+TOTAL PREP + SEARCH: 5ms
+Stats { worklist_steps: 1411, finished: 5, calc_final_utility: 603, upper_bound_fired: 24, free_vars_fired: 151, single_use_fired: 582, single_task_fired: 448, useless_abstract_fired: 588, force_multiuse_fired: 0 }
+Timing point 1 (from the start of compression_step to final donelist): 5ms
+Timing Comparison Point A (search) (millis): 5
+Timing point 2 (rewriting the candidate): 0ms
+Timing Comparison Point B (search+rewrite) (millis): 5
+Cost before: 15039
+0: utility: 505 | final_cost: 14130 | 1.06x | uses: 4 | body: [fn_6 arity=1: (moveHand 4 (reverseHand (1x3 #0)))]
+post stuff: 0ms
+Chose Invention fn_6: utility: 505 | final_cost: 14130 | 1.06x | uses: 4 | body: [fn_6 arity=1: (moveHand 4 (reverseHand (1x3 #0)))]
+[38;5;4;1m
+=======Compression Summary=======[0m
+Found 6 inventions
+Cost Improvement: (1.44x better) 54660 -> 37988
+[38;5;4mfn_1[0m (1.10x wrt orig): utility: 4470 | final_cost: 22654 | 1.22x | uses: 10 | body: [fn_1 arity=2: (lam (tower_loopM #1 (lam (lam (prev_dc_inv_0 (moveHand 6 $0) #0))) $0))]
+[38;5;4mfn_2[0m (1.18x wrt orig): utility: 2335 | final_cost: 19406 | 1.17x | uses: 4 | body: [fn_2 arity=1: (tower_loopM #0 (lam (lam (moveHand 6 (tower_loopM $1 (lam (lam (prev_dc_inv_0 $0 2))) $0)))))]
+[38;5;4mfn_3[0m (1.24x wrt orig): utility: 1210 | final_cost: 17790 | 1.09x | uses: 6 | body: [fn_3 arity=2: (prev_dc_inv_0 (moveHand 6 (prev_dc_inv_0 #1 #0)) #0)]
+[38;5;4mfn_4[0m (1.31x wrt orig): utility: 913 | final_cost: 15760 | 1.13x | uses: 2 | body: [fn_4 arity=2: (lam (tower_loopM #1 (lam (lam (moveHand 3 (reverseHand (tower_loopM #0 (lam (lam (moveHand 6 (3x1 $0)))) $0))))) $0))]
+[38;5;4mfn_5[0m (1.39x wrt orig): utility: 516 | final_cost: 15039 | 1.05x | uses: 28 | body: [fn_5 arity=2: (lam (tower_loopM #1 (lam #0) $0))]
+[38;5;4mfn_6[0m (1.44x wrt orig): utility: 505 | final_cost: 14130 | 1.06x | uses: 4 | body: [fn_6 arity=1: (moveHand 4 (reverseHand (1x3 #0)))]
+Time: 56ms
+Wrote to "compression_benchmark/benches/towers_tower_batch_50_3600_ellisk_2019-03-26T10.58.24/out/stitch/2022-10-04_19-35-59/raw/bench001_it1.json"
+	Command being timed: "/scratch/mlbowers/proj/stitch/target/release/compress compression_benchmark/benches/towers_tower_batch_50_3600_ellisk_2019-03-26T10.58.24/bench001_it1.json --max-arity=3 --threads=1 --iterations=6 --fmt=dreamcoder --dreamcoder-comparison --out=compression_benchmark/benches/towers_tower_batch_50_3600_ellisk_2019-03-26T10.58.24/out/stitch/2022-10-04_19-35-59/raw/bench001_it1.json"
+	User time (seconds): 0.06
+	System time (seconds): 0.01
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.07
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4804
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 543
+	Voluntary context switches: 0
+	Involuntary context switches: 8
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 208
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
