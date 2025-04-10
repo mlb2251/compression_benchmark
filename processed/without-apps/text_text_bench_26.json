@@ -1,0 +1,12 @@
+[
+    "(lam (fold $0 (map (lam $0) STRING) (lam (lam (cons $1 $0)))))",
+    "(lam (fold $0 STRING (lam (lam (cons $1 $0)))))",
+    "(lam (lam (cons (car $1) (cons '.' (cons (car $0) (cons '.' empty))))))",
+    "(lam (lam (fold $0 $0 (lam (lam (cons (car $3) (cons '.' (cons $1 (cons '.' empty)))))))))",
+    "(lam (lam (fold $1 (cons '.' (cons '-' $0)) (lam (lam (cons $1 $0))))))",
+    "(lam (lam (fold $1 (fold $0 $0 (lam (lam (cons '.' (cons '-' $2))))) (lam (lam (cons $1 $0))))))",
+    "(lam (map (lam (if (char-eq? $0 LPAREN) RPAREN $0)) $0))",
+    "(lam (map (lam (if (char-eq? $0 SPACE) LPAREN $0)) $0))",
+    "(lam (map (lam (if (char-eq? LPAREN $0) RPAREN $0)) $0))",
+    "(lam (map (lam (if (char-eq? SPACE $0) LPAREN $0)) $0))"
+]

@@ -1,0 +1,16 @@
+[
+    "(lam (car $0))",
+    "(lam (fold $0 $0 (lam (lam (map (lam 0) (fold (range $1) $0 (lam (lam (cdr $2)))))))))",
+    "(lam (fold $0 (cons (car (cdr (cdr $0))) empty) (lam (lam (cons $1 $0)))))",
+    "(lam (fold $0 (cons (index 1 (cdr $0)) empty) (lam (lam (cons $1 $0)))))",
+    "(lam (fold (cdr (cdr (cdr (cdr $0)))) $0 (lam (lam (cons $1 (cons (car $0) empty))))))",
+    "(lam (fold (cdr (cdr (cdr (cdr $0)))) (cons 0 empty) (lam (lam (cons $1 (cons (car $0) empty))))))",
+    "(lam (if (is-prime (length $0)) (is-prime (car $0)) (gt? (length $0) 0)))",
+    "(lam (if (is-prime (length $0)) (is-prime (car $0)) (is-prime (+ (length $0) 1))))",
+    "(lam (index 0 $0))",
+    "(lam (map (lam (empty? (range (- 0 $0)))) $0))",
+    "(lam (map (lam (eq? $0 (length (range $0)))) $0))",
+    "(lam (map (lam (index $0 (cons (+ $0 (+ 1 1)) (range $0)))) $0))",
+    "(lam (map (lam (index $0 (cons (+ 1 (+ 1 1)) (range $0)))) $0))",
+    "(lam (map (lam (index $0 (cons (+ 1 1) (range $0)))) $0))"
+]

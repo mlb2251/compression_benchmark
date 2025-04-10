@@ -1,0 +1,22 @@
+[
+    "(lam (cons (car $0) (cons ',' empty)))",
+    "(lam (cons (car $0) (cons '-' empty)))",
+    "(lam (cons (car $0) (map (lam ',') (range 1))))",
+    "(lam (cons (car $0) (map (lam '-') (range 1))))",
+    "(lam (fold $0 $0 (lam (lam (cdr (if (char-eq? RPAREN $1) $2 $0))))))",
+    "(lam (lam (cons (car $1) (cons '.' (cons (car $0) (cons '.' empty))))))",
+    "(lam (lam (cons (car $1) (cons '.' (cons (index 0 $0) (cons '.' empty))))))",
+    "(lam (lam (prev_dc_inv_0 $1 $0)))",
+    "(lam (lam (prev_dc_inv_0 $1 (cons SPACE $0))))",
+    "(lam (lam (prev_dc_inv_0 $1 (cons SPACE (cons SPACE $0)))))",
+    "(lam (lam (prev_dc_inv_0 $1 (cons SPACE (map (lam $0) $0)))))",
+    "(lam (lam (prev_dc_inv_0 $1 (map (lam $0) $0))))",
+    "(lam (map (lam (if (char-eq? $0 '-') ',' $0)) $0))",
+    "(lam (map (lam (if (char-eq? '-' $0) ',' $0)) $0))",
+    "(lam (prev_dc_inv_0 $0 (map (lam $0) STRING)))",
+    "(lam (prev_dc_inv_0 $0 STRING))",
+    "(lam (prev_dc_inv_0 (map (lam $0) STRING) $0))",
+    "(lam (prev_dc_inv_0 (map (lam $0) STRING) $0))",
+    "(lam (prev_dc_inv_0 STRING $0))",
+    "(lam (prev_dc_inv_0 STRING $0))"
+]
