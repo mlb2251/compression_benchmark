@@ -1,0 +1,18 @@
+[
+    "(lam (cons (car $0) (cons SPACE empty)))",
+    "(lam (cons (car $0) (map (lam SPACE) (range 1))))",
+    "(lam (fold $0 $0 (lam (lam (cons $1 (if (char-eq? '.' (car $0)) empty $0))))))",
+    "(lam (lam (prev_dc_inv_0 (cons ',' $0) $1)))",
+    "(lam (lam (prev_dc_inv_0 (cons ',' $0) (map (lam $0) $1))))",
+    "(lam (prev_dc_inv_0 $0 STRING))",
+    "(lam (prev_dc_inv_0 $0 STRING))",
+    "(lam (prev_dc_inv_0 (map (lam $0) $0) STRING))",
+    "(lam (prev_dc_inv_0 (map (lam $0) $0) STRING))",
+    "(lam (prev_dc_inv_0 (map (lam $0) STRING) $0))",
+    "(lam (prev_dc_inv_0 (map (lam $0) STRING) $0))",
+    "(lam (prev_dc_inv_0 (map (lam $0) STRING) $0))",
+    "(lam (prev_dc_inv_0 STRING $0))",
+    "(lam (prev_dc_inv_0 STRING $0))",
+    "(lam (prev_dc_inv_0 STRING $0))",
+    "(lam (unfold $0 (lam (char-eq? '.' (car $0))) (lam (car $0)) (lam (cdr $0))))"
+]

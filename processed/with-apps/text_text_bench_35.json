@@ -1,0 +1,18 @@
+[
+    "(lam (cons (car $0) (cons '-' empty)))",
+    "(lam (cons (index 0 $0) (cons '-' empty)))",
+    "(lam (fold $0 $0 (lam (lam (cdr (if (char-eq? $1 SPACE) $2 $0))))))",
+    "(lam (fold $0 $0 (lam (lam (cdr (if (char-eq? $1 SPACE) (if (char-eq? $1 ',') empty $2) $0))))))",
+    "(lam (fold $0 $0 (lam (lam (cons $1 (if (char-eq? (car $0) ',') empty $0))))))",
+    "(lam (fold $0 $0 (lam (lam (if (char-eq? $1 ',') empty (cons $1 $0))))))",
+    "(lam (lam (fold $1 $0 (lam (lam (cons $1 $0))))))",
+    "(lam (lam (fold $1 (cons LPAREN $0) (lam (lam (cons $1 $0))))))",
+    "(lam (lam (fold $1 (cons LPAREN (map (lam (if (char-eq? $0 ',') '.' $0)) $0)) (lam (lam (cons $1 $0))))))",
+    "(lam (lam (fold $1 (map (lam $0) $0) (lam (lam (cons $1 $0))))))",
+    "(lam (map (lam (if (char-eq? $0 ',') '.' $0)) $0))",
+    "(lam (map (lam (if (char-eq? ',' $0) '.' $0)) $0))",
+    "(lam (map (lam (index $0 $1)) (range (+ (index 1 (cdr (cdr (range (length $0))))) 1))))",
+    "(lam (map (lam (index $0 $1)) (range (+ 1 (index 1 (cdr (cdr (range (length $0)))))))))",
+    "(lam (map (lam (index $0 $1)) (range (- (length (cdr $0)) 1))))",
+    "(lam (map (lam (index $0 $1)) (range (length (cdr (cdr $0))))))"
+]
