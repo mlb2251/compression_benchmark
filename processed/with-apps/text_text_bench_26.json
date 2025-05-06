@@ -1,12 +1,12 @@
 [
-    "(lam (fold $0 (map (lam $0) STRING) (lam (lam (cons $1 $0)))))",
-    "(lam (fold $0 STRING (lam (lam (cons $1 $0)))))",
-    "(lam (lam (cons (car $1) (cons '.' (cons (car $0) (cons '.' empty))))))",
-    "(lam (lam (fold $0 $0 (lam (lam (cons (car $3) (cons '.' (cons $1 (cons '.' empty)))))))))",
-    "(lam (lam (fold $1 (cons '.' (cons '-' $0)) (lam (lam (cons $1 $0))))))",
-    "(lam (lam (fold $1 (fold $0 $0 (lam (lam (cons '.' (cons '-' $2))))) (lam (lam (cons $1 $0))))))",
-    "(lam (map (lam (if (char-eq? $0 LPAREN) RPAREN $0)) $0))",
-    "(lam (map (lam (if (char-eq? $0 SPACE) LPAREN $0)) $0))",
-    "(lam (map (lam (if (char-eq? LPAREN $0) RPAREN $0)) $0))",
-    "(lam (map (lam (if (char-eq? SPACE $0) LPAREN $0)) $0))"
+    "(lam (app (app (app fold $0) (app (app map (lam $0)) STRING)) (lam (lam (app (app cons $1) $0)))))",
+    "(lam (app (app (app fold $0) STRING) (lam (lam (app (app cons $1) $0)))))",
+    "(lam (lam (app (app cons (app car $1)) (app (app cons '.') (app (app cons (app car $0)) (app (app cons '.') empty))))))",
+    "(lam (lam (app (app (app fold $0) $0) (lam (lam (app (app cons (app car $3)) (app (app cons '.') (app (app cons $1) (app (app cons '.') empty)))))))))",
+    "(lam (lam (app (app (app fold $1) (app (app cons '.') (app (app cons '-') $0))) (lam (lam (app (app cons $1) $0))))))",
+    "(lam (lam (app (app (app fold $1) (app (app (app fold $0) $0) (lam (lam (app (app cons '.') (app (app cons '-') $2)))))) (lam (lam (app (app cons $1) $0))))))",
+    "(lam (app (app map (lam (app (app (app if (app (app char-eq? $0) LPAREN)) RPAREN) $0))) $0))",
+    "(lam (app (app map (lam (app (app (app if (app (app char-eq? $0) SPACE)) LPAREN) $0))) $0))",
+    "(lam (app (app map (lam (app (app (app if (app (app char-eq? LPAREN) $0)) RPAREN) $0))) $0))",
+    "(lam (app (app map (lam (app (app (app if (app (app char-eq? SPACE) $0)) LPAREN) $0))) $0))"
 ]

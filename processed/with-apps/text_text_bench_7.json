@@ -1,10 +1,10 @@
 [
-    "(lam (fold $0 $0 (lam (lam (cons $1 (if (char-eq? '.' (car $0)) empty $0))))))",
-    "(lam (fold $0 (map (lam $0) STRING) (lam (lam (cons $1 $0)))))",
-    "(lam (fold $0 STRING (lam (lam (cons $1 $0)))))",
-    "(lam (fold STRING $0 (lam (lam (cons $1 $0)))))",
-    "(lam (fold STRING $0 (lam (lam (cons $1 $0)))))",
-    "(lam (fold STRING (map (lam $0) $0) (lam (lam (cons $1 $0)))))",
-    "(lam (fold STRING (map (lam $0) $0) (lam (lam (cons $1 $0)))))",
-    "(lam (unfold $0 (lam (char-eq? '.' (car $0))) (lam (car $0)) (lam (cdr $0))))"
+    "(lam (app (app (app fold $0) $0) (lam (lam (app (app cons $1) (app (app (app if (app (app char-eq? '.') (app car $0))) empty) $0))))))",
+    "(lam (app (app (app fold $0) (app (app map (lam $0)) STRING)) (lam (lam (app (app cons $1) $0)))))",
+    "(lam (app (app (app fold $0) STRING) (lam (lam (app (app cons $1) $0)))))",
+    "(lam (app (app (app fold STRING) $0) (lam (lam (app (app cons $1) $0)))))",
+    "(lam (app (app (app fold STRING) $0) (lam (lam (app (app cons $1) $0)))))",
+    "(lam (app (app (app fold STRING) (app (app map (lam $0)) $0)) (lam (lam (app (app cons $1) $0)))))",
+    "(lam (app (app (app fold STRING) (app (app map (lam $0)) $0)) (lam (lam (app (app cons $1) $0)))))",
+    "(lam (app (app (app (app unfold $0) (lam (app (app char-eq? '.') (app car $0)))) (lam (app car $0))) (lam (app cdr $0))))"
 ]

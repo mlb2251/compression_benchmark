@@ -1,10 +1,10 @@
 [
-    "(lam (tower_loopM 4 (lam (lam (3x1 (moveHand 7 $0)))) $0))",
-    "(lam (tower_loopM 4 (lam (lam (moveHand 7 (3x1 $0)))) $0))",
-    "(lam (tower_loopM 5 (lam (lam (1x3 (moveHand 4 (1x3 (reverseHand $0)))))) (moveHand 2 (3x1 $0))))",
-    "(lam (tower_loopM 5 (lam (lam (1x3 (moveHand 4 (reverseHand (1x3 $0)))))) (moveHand 2 (3x1 $0))))",
-    "(lam (tower_loopM 6 (lam (lam (reverseHand (tower_embed (lam (moveHand 2 (1x3 $0))) $0)))) (3x1 $0)))",
-    "(lam (tower_loopM 6 (lam (lam (tower_embed (lam (moveHand 2 (1x3 $0))) (reverseHand $0)))) (3x1 $0)))",
-    "(lam (tower_loopM 8 (lam (lam (reverseHand (tower_embed (lam (moveHand 2 (1x3 $0))) $0)))) (3x1 $0)))",
-    "(lam (tower_loopM 8 (lam (lam (tower_embed (lam (moveHand 2 (1x3 $0))) (reverseHand $0)))) (3x1 $0)))"
+    "(lam (app (app (app tower_loopM 4) (lam (lam (app 3x1 (app (app moveHand 7) $0))))) $0))",
+    "(lam (app (app (app tower_loopM 4) (lam (lam (app (app moveHand 7) (app 3x1 $0))))) $0))",
+    "(lam (app (app (app tower_loopM 5) (lam (lam (app 1x3 (app (app moveHand 4) (app 1x3 (app reverseHand $0))))))) (app (app moveHand 2) (app 3x1 $0))))",
+    "(lam (app (app (app tower_loopM 5) (lam (lam (app 1x3 (app (app moveHand 4) (app reverseHand (app 1x3 $0))))))) (app (app moveHand 2) (app 3x1 $0))))",
+    "(lam (app (app (app tower_loopM 6) (lam (lam (app reverseHand (app (app tower_embed (lam (app (app moveHand 2) (app 1x3 $0)))) $0))))) (app 3x1 $0)))",
+    "(lam (app (app (app tower_loopM 6) (lam (lam (app (app tower_embed (lam (app (app moveHand 2) (app 1x3 $0)))) (app reverseHand $0))))) (app 3x1 $0)))",
+    "(lam (app (app (app tower_loopM 8) (lam (lam (app reverseHand (app (app tower_embed (lam (app (app moveHand 2) (app 1x3 $0)))) $0))))) (app 3x1 $0)))",
+    "(lam (app (app (app tower_loopM 8) (lam (lam (app (app tower_embed (lam (app (app moveHand 2) (app 1x3 $0)))) (app reverseHand $0))))) (app 3x1 $0)))"
 ]

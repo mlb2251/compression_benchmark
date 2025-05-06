@@ -16,15 +16,53 @@ def rewrite_to_use_apps(node):
             node.symbol, [rewrite_to_use_apps(child) for child in node.children]
         )
     if node.symbol not in {
-        "prev_dc_inv_0",
+        "$0",
+        "$2",
+        "*",
+        "*.",
+        "+",
+        "+.",
+        "-",
+        "-.",
+        "/.",
         "1x3",
         "3x1",
+        "car",
+        "cdr",
+        "char-eq?",
+        "cons",
+        "empty?",
+        "eq?",
+        "fold",
+        "gt?",
+        "if",
+        "index",
+        "is-prime",
+        "is-square",
+        "length",
+        "logo_ADDA",
+        "logo_DIVA",
+        "logo_DIVL",
+        "logo_FWRT",
+        "logo_GETSET",
+        "logo_MULA",
+        "logo_MULL",
+        "logo_PT",
+        "logo_SUBA",
+        "logo_forLoop",
+        "map",
+        "mod",
         "moveHand",
-        "prev_dc_inv_1",
+        "power",
+        *[f"prev_dc_inv_{i}" for i in range(25)],
+        "range",
         "reverseHand",
         "tower_embed",
         "tower_loopM",
+        "unfold",
+        "zip",
     }:
+        # syms.add(node.symbol)
         raise RuntimeError(f"Invalid symbol: {node.symbol}")
     head = node.symbol
     for child in node.children:
@@ -42,10 +80,10 @@ os.makedirs(with_apps, exist_ok=True)
 
 for file_name, data in result.items():
     for i, item in enumerate(data):
-        if isinstance(item, str):
-            continue
-        assert isinstance(item, ns.SExpression)
-        data[i] = rewrite_to_use_apps(item)
+        item = ns.parse_s_expression(item)
+        item = rewrite_to_use_apps(item)
+        item = ns.render_s_expression(item)
+        data[i] = item
 
     with open(os.path.join(with_apps, file_name), "w") as f:
         json.dump(data, f, indent=4)
