@@ -1,10 +1,9 @@
 import os
 import json
+import shutil
+import subprocess
 
 import neurosym as ns
-
-without_apps = "processed/without-apps/"
-with_apps = "processed/with-apps/"
 
 
 def rewrite_to_use_apps(node):
@@ -15,7 +14,7 @@ def rewrite_to_use_apps(node):
         return ns.SExpression(
             node.symbol, [rewrite_to_use_apps(child) for child in node.children]
         )
-    if node.symbol not in {
+    if not isinstance(node.symbol, ns.SExpression) and node.symbol not in {
         "$0",
         "$2",
         "*",
@@ -61,8 +60,21 @@ def rewrite_to_use_apps(node):
         "tower_loopM",
         "unfold",
         "zip",
+        "M",
+        "tan",
+        "repeat",
+        "l",
+        "T",
+        "max",
+        "h",
+        "r",
+        "sin",
+        "C",
+        "cos",
+        "/",
+        "r_s",
+        "pow",
     }:
-        # syms.add(node.symbol)
         raise RuntimeError(f"Invalid symbol: {node.symbol}")
     head = node.symbol
     for child in node.children:
@@ -71,19 +83,28 @@ def rewrite_to_use_apps(node):
     return head
 
 
-result = {}
-for file_name in os.listdir(without_apps):
-    with open(os.path.join(without_apps, file_name)) as f:
-        result[file_name] = json.load(f)
+def process(without_apps, with_apps):
+    result = {}
+    for file_name in os.listdir(without_apps):
+        with open(os.path.join(without_apps, file_name)) as f:
+            result[file_name] = json.load(f)
 
-os.makedirs(with_apps, exist_ok=True)
+    os.makedirs(with_apps, exist_ok=True)
 
-for file_name, data in result.items():
-    for i, item in enumerate(data):
-        item = ns.parse_s_expression(item)
-        item = rewrite_to_use_apps(item)
-        item = ns.render_s_expression(item)
-        data[i] = item
+    for file_name, data in result.items():
+        for i, item in enumerate(data):
+            item = ns.parse_s_expression(item, allow_sexp_head=True)
+            item = rewrite_to_use_apps(item)
+            item = ns.render_s_expression(item)
+            data[i] = item
 
-    with open(os.path.join(with_apps, file_name), "w") as f:
-        json.dump(data, f, indent=4)
+        with open(os.path.join(with_apps, file_name), "w") as f:
+            json.dump(data, f, indent=4)
+
+
+shutil.rmtree("processed", ignore_errors=True)
+subprocess.check_call(["python", "extract_second_order.py"])
+process("processed/without-apps/", "processed/with-apps/")
+shutil.copytree("cogsci", "processed/without-apps-no-lam")
+process("cogsci/", "processed/with-apps/")
+process("cogsci/", "processed/with-apps-no-lam/")
